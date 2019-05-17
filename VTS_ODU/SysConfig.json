@@ -1,15 +1,15 @@
 ﻿{
-    "radarRecvPort": "9005",
-    "aisRecvPort": "9006",
-	"localIp": "",
-    "coachStation": {
-        "coachStationIp": "10.162.35.124",
-        "coachStationPort": "9004"
-    },
-    "dataBase": {
-        "dataBaseIp": "120.25.251.47",
-        "dataBasePort": "3306",
-		"dataBaseUser": "driver",
-		"dataBasePass": "123456"
-    }
+  "radarRecvPort": "9005",
+  "aisRecvPort": "9006",
+  "localIp": "192.168.1.112",
+  "coachStation": {
+    "coachStationIp": "10.162.35.124",
+    "coachStationPort": "9004"
+  },
+  "dataBase": {
+    "dataBaseIp": "120.25.251.47",
+    "dataBasePort": "3306",
+    "dataBaseUser": "driver",
+    "dataBasePass": "123456"
+  }
 }
