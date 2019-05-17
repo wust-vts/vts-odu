@@ -2398,6 +2398,88 @@ namespace vts_odu
             }
             return result;
         }
+
+        private void toolStripButton_ZoomIn_MouseHover(object sender, EventArgs e)
+        {
+            if (sender == this.toolStripButton_ZoomIn)          //放大按钮
+            {
+                this.toolStripButton_ZoomIn.BackgroundImage = Properties.Resources.zoomIn;
+            }
+            else if (sender == this.toolStripButton_ZoomOut)    //缩小按钮
+            {
+                this.toolStripButton_ZoomOut.BackgroundImage = Properties.Resources.zoomOut;
+            }
+
+            else if (sender == this.toolStripButton_MoveLeft)   //向左移动
+            {
+                this.toolStripButton_MoveLeft.BackgroundImage = Properties.Resources.left;
+            }
+
+            else if (sender == this.toolStripButton_MoveRight)  //向右移动
+            {
+                this.toolStripButton_MoveRight.BackgroundImage = Properties.Resources.right;
+            }
+
+            else if (sender == this.toolStripButton_MoveUp)     //向上移动
+            {
+                this.toolStripButton_MoveUp.BackgroundImage = Properties.Resources.up;
+            }
+
+            else if (sender == this.toolStripButton_MoveDown)   //向下移动
+            {
+                this.toolStripButton_MoveDown.BackgroundImage = Properties.Resources.down;
+            }
+
+            else if (sender == this.toolStripButton_ZoomByRect)     //拉框放大
+            {
+                this.toolStripButton_ZoomByRect.BackgroundImage = Properties.Resources.dingwei;
+            }
+            else if (sender == this.toolStripButton_LibMapMan)//图幅管理
+            {
+                this.toolStripButton_LibMapMan.BackgroundImage = Properties.Resources.wenjian;
+            }
+        }
+
+        private void toolStripButton_ZoomIn_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (sender == this.toolStripButton_ZoomIn)          //放大按钮
+            {
+                this.toolStripButton_ZoomIn.BackgroundImage = Properties.Resources.zoomIn;
+            }
+            else if (sender == this.toolStripButton_ZoomOut)    //缩小按钮
+            {
+                this.toolStripButton_ZoomOut.BackgroundImage = Properties.Resources.zoomOut;
+            }
+
+            else if (sender == this.toolStripButton_MoveLeft)   //向左移动
+            {
+                this.toolStripButton_MoveLeft.BackgroundImage = Properties.Resources.left;
+            }
+
+            else if (sender == this.toolStripButton_MoveRight)  //向右移动
+            {
+                this.toolStripButton_MoveRight.BackgroundImage = Properties.Resources.right;
+            }
+
+            else if (sender == this.toolStripButton_MoveUp)     //向上移动
+            {
+                this.toolStripButton_MoveUp.BackgroundImage = Properties.Resources.up;
+            }
+
+            else if (sender == this.toolStripButton_MoveDown)   //向下移动
+            {
+                this.toolStripButton_MoveDown.BackgroundImage = Properties.Resources.down;
+            }
+
+            else if (sender == this.toolStripButton_ZoomByRect)     //拉框放大
+            {
+                this.toolStripButton_ZoomByRect.BackgroundImage = Properties.Resources.dingwei;
+            }
+            else if (sender == this.toolStripButton_LibMapMan)//图幅管理
+            {
+                this.toolStripButton_LibMapMan.BackgroundImage = Properties.Resources.wenjian;
+            }
+        }
     }
 }
 

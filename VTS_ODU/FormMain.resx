@@ -345,27 +345,6 @@
   <data name="TS_TOOLBAR.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="TS_TOOLBAR.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="TS_TOOLBAR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1075, 48</value>
-  </data>
-  <data name="TS_TOOLBAR.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;TS_TOOLBAR.Name" xml:space="preserve">
-    <value>TS_TOOLBAR</value>
-  </data>
-  <data name="&gt;&gt;TS_TOOLBAR.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TS_TOOLBAR.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TS_TOOLBAR.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 45</value>
   </data>
@@ -666,6 +645,75 @@
   <data name="StartOrStop.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="TS_TOOLBAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="TS_TOOLBAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1075, 48</value>
+  </data>
+  <data name="TS_TOOLBAR.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TS_TOOLBAR.Name" xml:space="preserve">
+    <value>TS_TOOLBAR</value>
+  </data>
+  <data name="&gt;&gt;TS_TOOLBAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TS_TOOLBAR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TS_TOOLBAR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl_ShowInfo.Name" xml:space="preserve">
+    <value>tabControl_ShowInfo</value>
+  </data>
+  <data name="&gt;&gt;tabControl_ShowInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl_ShowInfo.Parent" xml:space="preserve">
+    <value>panel_MainInfo</value>
+  </data>
+  <data name="&gt;&gt;tabControl_ShowInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Name" xml:space="preserve">
+    <value>tabControl_shipList</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Parent" xml:space="preserve">
+    <value>panel_MainInfo</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel_MainInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panel_MainInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>761, 0</value>
+  </data>
+  <data name="panel_MainInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 515</value>
+  </data>
+  <data name="panel_MainInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.Name" xml:space="preserve">
+    <value>panel_MainInfo</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.Parent" xml:space="preserve">
+    <value>panel_mapView</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;tabPage_BaseInfo.Name" xml:space="preserve">
     <value>tabPage_BaseInfo</value>
   </data>
@@ -716,126 +764,6 @@
   </data>
   <data name="&gt;&gt;tabControl_ShowInfo.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="dataGridView_ShipList.ColumnHeadersHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="MMSI.HeaderText" xml:space="preserve">
-    <value>MMSI</value>
-  </data>
-  <metadata name="shipname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="shipname.HeaderText" xml:space="preserve">
-    <value>名称</value>
-  </data>
-  <metadata name="radarTrack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="radarTrack.HeaderText" xml:space="preserve">
-    <value>雷达</value>
-  </data>
-  <metadata name="aisTrack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="aisTrack.HeaderText" xml:space="preserve">
-    <value>Ais</value>
-  </data>
-  <data name="dataGridView_ShipList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, 0</value>
-  </data>
-  <data name="dataGridView_ShipList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 245</value>
-  </data>
-  <data name="dataGridView_ShipList.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;dataGridView_ShipList.Name" xml:space="preserve">
-    <value>dataGridView_ShipList</value>
-  </data>
-  <data name="&gt;&gt;dataGridView_ShipList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridView_ShipList.Parent" xml:space="preserve">
-    <value>tabPage_Othervessl</value>
-  </data>
-  <data name="&gt;&gt;dataGridView_ShipList.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabPage_Othervessl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="tabPage_Othervessl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 241</value>
-  </data>
-  <data name="tabPage_Othervessl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabPage_Othervessl.Text" xml:space="preserve">
-    <value>目标追踪列表</value>
-  </data>
-  <data name="&gt;&gt;tabPage_Othervessl.Name" xml:space="preserve">
-    <value>tabPage_Othervessl</value>
-  </data>
-  <data name="&gt;&gt;tabPage_Othervessl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage_Othervessl.Parent" xml:space="preserve">
-    <value>tabControl_shipList</value>
-  </data>
-  <data name="&gt;&gt;tabPage_Othervessl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabControl_shipList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="tabControl_shipList.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="tabControl_shipList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 244</value>
-  </data>
-  <data name="tabControl_shipList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>314, 271</value>
-  </data>
-  <data name="tabControl_shipList.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabControl_shipList.Name" xml:space="preserve">
-    <value>tabControl_shipList</value>
-  </data>
-  <data name="&gt;&gt;tabControl_shipList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControl_shipList.Parent" xml:space="preserve">
-    <value>panel_MainInfo</value>
-  </data>
-  <data name="&gt;&gt;tabControl_shipList.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel_MainInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="panel_MainInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>761, 0</value>
-  </data>
-  <data name="panel_MainInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>314, 515</value>
-  </data>
-  <data name="panel_MainInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel_MainInfo.Name" xml:space="preserve">
-    <value>panel_MainInfo</value>
-  </data>
-  <data name="&gt;&gt;panel_MainInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_MainInfo.Parent" xml:space="preserve">
-    <value>panel_mapView</value>
-  </data>
-  <data name="&gt;&gt;panel_MainInfo.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;label_name.Name" xml:space="preserve">
     <value>label_name</value>
@@ -1698,29 +1626,134 @@
   <data name="&gt;&gt;label_ship_length.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;ymEncCtrl.Name" xml:space="preserve">
-    <value>ymEncCtrl</value>
+  <data name="&gt;&gt;tabPage_Othervessl.Name" xml:space="preserve">
+    <value>tabPage_Othervessl</value>
   </data>
-  <data name="&gt;&gt;ymEncCtrl.Type" xml:space="preserve">
-    <value>AxYIMAENCLib.AxYimaEnc, AxInterop.YIMAENCLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;tabPage_Othervessl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ymEncCtrl.Parent" xml:space="preserve">
-    <value>panel_MainMap</value>
+  <data name="&gt;&gt;tabPage_Othervessl.Parent" xml:space="preserve">
+    <value>tabControl_shipList</value>
   </data>
-  <data name="&gt;&gt;ymEncCtrl.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tabPage_Othervessl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="panel_MainMap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="tabControl_shipList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
-  <data name="panel_MainMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="tabControl_shipList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
   </data>
-  <data name="panel_MainMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>761, 515</value>
+  <data name="tabControl_shipList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 244</value>
   </data>
-  <data name="panel_MainMap.TabIndex" type="System.Int32, mscorlib">
+  <data name="tabControl_shipList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 271</value>
+  </data>
+  <data name="tabControl_shipList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Name" xml:space="preserve">
+    <value>tabControl_shipList</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Parent" xml:space="preserve">
+    <value>panel_MainInfo</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.Name" xml:space="preserve">
+    <value>dataGridView_ShipList</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.Parent" xml:space="preserve">
+    <value>tabPage_Othervessl</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage_Othervessl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage_Othervessl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 241</value>
+  </data>
+  <data name="tabPage_Othervessl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage_Othervessl.Text" xml:space="preserve">
+    <value>目标追踪列表</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.Name" xml:space="preserve">
+    <value>tabPage_Othervessl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.Parent" xml:space="preserve">
+    <value>tabControl_shipList</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="shipname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="radarTrack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="aisTrack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridView_ShipList.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataGridView_ShipList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 0</value>
+  </data>
+  <data name="dataGridView_ShipList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 245</value>
+  </data>
+  <data name="dataGridView_ShipList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.Name" xml:space="preserve">
+    <value>dataGridView_ShipList</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.Parent" xml:space="preserve">
+    <value>tabPage_Othervessl</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_ShipList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MMSI.HeaderText" xml:space="preserve">
+    <value>MMSI</value>
+  </data>
+  <metadata name="shipname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="shipname.HeaderText" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <metadata name="radarTrack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="radarTrack.HeaderText" xml:space="preserve">
+    <value>雷达</value>
+  </data>
+  <metadata name="aisTrack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="aisTrack.HeaderText" xml:space="preserve">
+    <value>Ais</value>
   </data>
   <data name="&gt;&gt;panel_MainMap.Name" xml:space="preserve">
     <value>panel_MainMap</value>
@@ -1757,6 +1790,42 @@
   </data>
   <data name="&gt;&gt;panel_mapView.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;ymEncCtrl.Name" xml:space="preserve">
+    <value>ymEncCtrl</value>
+  </data>
+  <data name="&gt;&gt;ymEncCtrl.Type" xml:space="preserve">
+    <value>AxYIMAENCLib.AxYimaEnc, AxInterop.YIMAENCLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ymEncCtrl.Parent" xml:space="preserve">
+    <value>panel_MainMap</value>
+  </data>
+  <data name="&gt;&gt;ymEncCtrl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel_MainMap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_MainMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_MainMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>761, 515</value>
+  </data>
+  <data name="panel_MainMap.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_MainMap.Name" xml:space="preserve">
+    <value>panel_MainMap</value>
+  </data>
+  <data name="&gt;&gt;panel_MainMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_MainMap.Parent" xml:space="preserve">
+    <value>panel_mapView</value>
+  </data>
+  <data name="&gt;&gt;panel_MainMap.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="ymEncCtrl.Enabled" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2107,25 +2176,25 @@
     <value>视图(&amp;H)</value>
   </data>
   <data name="TSMI_VIEW_TOOLBAR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="TSMI_VIEW_TOOLBAR.Text" xml:space="preserve">
     <value>工具栏</value>
   </data>
   <data name="TSMI_VIEW_STATUS_BAR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="TSMI_VIEW_STATUS_BAR.Text" xml:space="preserve">
     <value>状态栏</value>
   </data>
   <data name="TSMI_Info.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="TSMI_Info.Text" xml:space="preserve">
     <value>信息栏</value>
   </data>
   <data name="全屏显示ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="全屏显示ToolStripMenuItem.Text" xml:space="preserve">
     <value>全屏显示</value>

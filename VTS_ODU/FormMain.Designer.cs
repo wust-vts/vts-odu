@@ -270,6 +270,8 @@ namespace vts_odu
             this.toolStripButton_ZoomIn.Click += new System.EventHandler(this.放大ToolStripMenuItem_Click);
             this.toolStripButton_ZoomIn.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
             this.toolStripButton_ZoomIn.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_ZoomIn.MouseHover += new System.EventHandler(this.toolStripButton_ZoomIn_MouseHover);
+            this.toolStripButton_ZoomIn.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_ZoomIn_MouseMove);
             // 
             // toolStripButton_ZoomOut
             // 
