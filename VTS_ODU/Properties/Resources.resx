@@ -157,9 +157,6 @@
   <data name="hand" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\hand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dingwei" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\dingwei.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ship1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\ship1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,23 +205,14 @@
   <data name="hand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\hand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wenjian" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\wenjian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="zoomOut1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\zoomOut1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="jiasuan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\jiasuan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="zoomOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\zoomOut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="msg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\msg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,17 +223,11 @@
   <data name="close21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\close2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="locking2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\locking2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="zoomIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\zoomIn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jiasuan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\jiasuan2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,17 +238,11 @@
   <data name="down2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\down2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="down" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="left1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\left1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login_96px_1210124_easyicon_net" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\login_96px_1210124_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="locking" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\locking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="小按钮2选中_2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\小按钮2选中@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -279,9 +255,6 @@
   </data>
   <data name="dingwei2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\dingwei2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\bigimg\left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_login_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\button_login_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -297,5 +270,77 @@
   </data>
   <data name="jiasuan21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\jiasuan2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\close1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\close2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dingwei11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dingwei1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dingwei21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dingwei2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\down1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\down2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jiasuan11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\jiasuan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jiasuan22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\jiasuan2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\left1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\left2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="locking11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\locking1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="locking21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\locking2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\msg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\msg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\right2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\up1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\up2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wenjian11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\wenjian1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wenjian21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\wenjian2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoomIn11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\zoomIn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoomIn21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\zoomIn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoomOut11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\zoomOut1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoomOut21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\zoomOut2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

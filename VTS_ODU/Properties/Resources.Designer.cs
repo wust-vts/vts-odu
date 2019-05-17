@@ -123,6 +123,16 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap close11 {
+            get {
+                object obj = ResourceManager.GetObject("close11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap close2 {
             get {
                 object obj = ResourceManager.GetObject("close2", resourceCulture);
@@ -136,6 +146,16 @@ namespace vts_odu.Properties {
         public static System.Drawing.Bitmap close21 {
             get {
                 object obj = ResourceManager.GetObject("close21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap close22 {
+            get {
+                object obj = ResourceManager.GetObject("close22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +183,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap dingwei {
+        public static System.Drawing.Bitmap dingwei1 {
             get {
-                object obj = ResourceManager.GetObject("dingwei", resourceCulture);
+                object obj = ResourceManager.GetObject("dingwei1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +193,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap dingwei1 {
+        public static System.Drawing.Bitmap dingwei11 {
             get {
-                object obj = ResourceManager.GetObject("dingwei1", resourceCulture);
+                object obj = ResourceManager.GetObject("dingwei11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +213,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap down {
+        public static System.Drawing.Bitmap dingwei21 {
             get {
-                object obj = ResourceManager.GetObject("down", resourceCulture);
+                object obj = ResourceManager.GetObject("dingwei21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +233,29 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap down11 {
+            get {
+                object obj = ResourceManager.GetObject("down11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap down2 {
             get {
                 object obj = ResourceManager.GetObject("down2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap down21 {
+            get {
+                object obj = ResourceManager.GetObject("down21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,6 +343,16 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap jiasuan11 {
+            get {
+                object obj = ResourceManager.GetObject("jiasuan11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap jiasuan2 {
             get {
                 object obj = ResourceManager.GetObject("jiasuan2", resourceCulture);
@@ -323,9 +373,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap left {
+        public static System.Drawing.Bitmap jiasuan22 {
             get {
-                object obj = ResourceManager.GetObject("left", resourceCulture);
+                object obj = ResourceManager.GetObject("jiasuan22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,6 +393,16 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap left11 {
+            get {
+                object obj = ResourceManager.GetObject("left11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap left2 {
             get {
                 object obj = ResourceManager.GetObject("left2", resourceCulture);
@@ -353,9 +413,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap locking {
+        public static System.Drawing.Bitmap left21 {
             get {
-                object obj = ResourceManager.GetObject("locking", resourceCulture);
+                object obj = ResourceManager.GetObject("left21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +433,29 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap locking11 {
+            get {
+                object obj = ResourceManager.GetObject("locking11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap locking2 {
             get {
                 object obj = ResourceManager.GetObject("locking2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap locking21 {
+            get {
+                object obj = ResourceManager.GetObject("locking21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,9 +483,29 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap msg11 {
+            get {
+                object obj = ResourceManager.GetObject("msg11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap msg2 {
             get {
                 object obj = ResourceManager.GetObject("msg2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap msg21 {
+            get {
+                object obj = ResourceManager.GetObject("msg21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,16 +523,6 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap right {
-            get {
-                object obj = ResourceManager.GetObject("right", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
         public static System.Drawing.Bitmap right1 {
             get {
                 object obj = ResourceManager.GetObject("right1", resourceCulture);
@@ -443,9 +533,29 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap right11 {
+            get {
+                object obj = ResourceManager.GetObject("right11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap right2 {
             get {
                 object obj = ResourceManager.GetObject("right2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap right21 {
+            get {
+                object obj = ResourceManager.GetObject("right21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,9 +613,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap up {
+        public static System.Drawing.Bitmap up1 {
             get {
-                object obj = ResourceManager.GetObject("up", resourceCulture);
+                object obj = ResourceManager.GetObject("up1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -513,9 +623,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap up1 {
+        public static System.Drawing.Bitmap up11 {
             get {
-                object obj = ResourceManager.GetObject("up1", resourceCulture);
+                object obj = ResourceManager.GetObject("up11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -533,9 +643,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap user_24px_28312_easyicon_net {
+        public static System.Drawing.Bitmap up21 {
             get {
-                object obj = ResourceManager.GetObject("user_24px_28312_easyicon_net", resourceCulture);
+                object obj = ResourceManager.GetObject("up21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,9 +653,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap wenjian {
+        public static System.Drawing.Bitmap user_24px_28312_easyicon_net {
             get {
-                object obj = ResourceManager.GetObject("wenjian", resourceCulture);
+                object obj = ResourceManager.GetObject("user_24px_28312_easyicon_net", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,9 +673,29 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap wenjian11 {
+            get {
+                object obj = ResourceManager.GetObject("wenjian11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap wenjian2 {
             get {
                 object obj = ResourceManager.GetObject("wenjian2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap wenjian21 {
+            get {
+                object obj = ResourceManager.GetObject("wenjian21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -583,9 +713,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap zoomIn {
+        public static System.Drawing.Bitmap zoomIn1 {
             get {
-                object obj = ResourceManager.GetObject("zoomIn", resourceCulture);
+                object obj = ResourceManager.GetObject("zoomIn1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,9 +723,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap zoomIn1 {
+        public static System.Drawing.Bitmap zoomIn11 {
             get {
-                object obj = ResourceManager.GetObject("zoomIn1", resourceCulture);
+                object obj = ResourceManager.GetObject("zoomIn11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,9 +743,9 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap zoomOut {
+        public static System.Drawing.Bitmap zoomIn21 {
             get {
-                object obj = ResourceManager.GetObject("zoomOut", resourceCulture);
+                object obj = ResourceManager.GetObject("zoomIn21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,9 +763,29 @@ namespace vts_odu.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap zoomOut11 {
+            get {
+                object obj = ResourceManager.GetObject("zoomOut11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap zoomOut2 {
             get {
                 object obj = ResourceManager.GetObject("zoomOut2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap zoomOut21 {
+            get {
+                object obj = ResourceManager.GetObject("zoomOut21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -82,13 +82,6 @@ namespace vts_odu
             this.label_ship_width = new System.Windows.Forms.Label();
             this.label_ship_model = new System.Windows.Forms.Label();
             this.label_ship_length = new System.Windows.Forms.Label();
-            this.tabControl_shipList = new System.Windows.Forms.TabControl();
-            this.tabPage_Othervessl = new System.Windows.Forms.TabPage();
-            this.dataGridView_ShipList = new System.Windows.Forms.DataGridView();
-            this.MMSI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.shipname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.radarTrack = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.aisTrack = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel_mapView = new System.Windows.Forms.Panel();
             this.panel_MainMap = new System.Windows.Forms.Panel();
             this.ymEncCtrl = new AxYIMAENCLib.AxYimaEnc();
@@ -139,15 +132,13 @@ namespace vts_odu
             this.开始回放ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.停止回放ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.aIS数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SS_STATUS_BAR.SuspendLayout();
             this.TS_TOOLBAR.SuspendLayout();
             this.panel_MainInfo.SuspendLayout();
             this.tabControl_ShowInfo.SuspendLayout();
             this.tabPage_BaseInfo.SuspendLayout();
             this.tabPage_SettingInfo.SuspendLayout();
-            this.tabControl_shipList.SuspendLayout();
-            this.tabPage_Othervessl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ShipList)).BeginInit();
             this.panel_mapView.SuspendLayout();
             this.panel_MainMap.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ymEncCtrl)).BeginInit();
@@ -264,84 +255,83 @@ namespace vts_odu
             // toolStripButton_ZoomIn
             // 
             resources.ApplyResources(this.toolStripButton_ZoomIn, "toolStripButton_ZoomIn");
-            this.toolStripButton_ZoomIn.BackgroundImage = global::vts_odu.Properties.Resources.zoomIn;
+            this.toolStripButton_ZoomIn.BackColor = System.Drawing.Color.White;
             this.toolStripButton_ZoomIn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_ZoomIn.Image = global::vts_odu.Properties.Resources.zoomIn11;
             this.toolStripButton_ZoomIn.Name = "toolStripButton_ZoomIn";
             this.toolStripButton_ZoomIn.Click += new System.EventHandler(this.放大ToolStripMenuItem_Click);
-            this.toolStripButton_ZoomIn.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_ZoomIn.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
-            this.toolStripButton_ZoomIn.MouseHover += new System.EventHandler(this.toolStripButton_ZoomIn_MouseHover);
-            this.toolStripButton_ZoomIn.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_ZoomIn_MouseMove);
+            this.toolStripButton_ZoomIn.MouseLeave += new System.EventHandler(this.toolStripButton_ZoomIn_MouseLeave);
+            this.toolStripButton_ZoomIn.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_ZoomIn_MouseMove_1);
             // 
             // toolStripButton_ZoomOut
             // 
             resources.ApplyResources(this.toolStripButton_ZoomOut, "toolStripButton_ZoomOut");
-            this.toolStripButton_ZoomOut.BackgroundImage = global::vts_odu.Properties.Resources.zoomOut;
             this.toolStripButton_ZoomOut.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_ZoomOut.Image = global::vts_odu.Properties.Resources.zoomOut11;
             this.toolStripButton_ZoomOut.Name = "toolStripButton_ZoomOut";
             this.toolStripButton_ZoomOut.Click += new System.EventHandler(this.缩小ToolStripMenuItem_Click);
-            this.toolStripButton_ZoomOut.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_ZoomOut.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_ZoomOut.MouseLeave += new System.EventHandler(this.toolStripButton_ZoomOut_MouseLeave);
+            this.toolStripButton_ZoomOut.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_ZoomOut_MouseMove);
             // 
             // toolStripButton_MoveLeft
             // 
             resources.ApplyResources(this.toolStripButton_MoveLeft, "toolStripButton_MoveLeft");
-            this.toolStripButton_MoveLeft.BackgroundImage = global::vts_odu.Properties.Resources.left;
             this.toolStripButton_MoveLeft.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_MoveLeft.Image = global::vts_odu.Properties.Resources.left11;
             this.toolStripButton_MoveLeft.Name = "toolStripButton_MoveLeft";
             this.toolStripButton_MoveLeft.Click += new System.EventHandler(this.左移ToolStripMenuItem_Click);
-            this.toolStripButton_MoveLeft.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_MoveLeft.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_MoveLeft.MouseLeave += new System.EventHandler(this.toolStripButton_MoveLeft_MouseLeave);
+            this.toolStripButton_MoveLeft.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_MoveLeft_MouseMove);
             // 
             // toolStripButton_MoveRight
             // 
             resources.ApplyResources(this.toolStripButton_MoveRight, "toolStripButton_MoveRight");
-            this.toolStripButton_MoveRight.BackgroundImage = global::vts_odu.Properties.Resources.right;
             this.toolStripButton_MoveRight.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_MoveRight.Image = global::vts_odu.Properties.Resources.right11;
             this.toolStripButton_MoveRight.Name = "toolStripButton_MoveRight";
             this.toolStripButton_MoveRight.Click += new System.EventHandler(this.右移ToolStripMenuItem_Click);
-            this.toolStripButton_MoveRight.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_MoveRight.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_MoveRight.MouseLeave += new System.EventHandler(this.toolStripButton_MoveRight_MouseLeave);
+            this.toolStripButton_MoveRight.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_MoveRight_MouseMove);
             // 
             // toolStripButton_MoveUp
             // 
             resources.ApplyResources(this.toolStripButton_MoveUp, "toolStripButton_MoveUp");
-            this.toolStripButton_MoveUp.BackgroundImage = global::vts_odu.Properties.Resources.up;
             this.toolStripButton_MoveUp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_MoveUp.Image = global::vts_odu.Properties.Resources.up11;
             this.toolStripButton_MoveUp.Name = "toolStripButton_MoveUp";
             this.toolStripButton_MoveUp.Click += new System.EventHandler(this.上移ToolStripMenuItem_Click);
-            this.toolStripButton_MoveUp.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_MoveUp.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_MoveUp.MouseLeave += new System.EventHandler(this.toolStripButton_MoveUp_MouseLeave);
+            this.toolStripButton_MoveUp.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_MoveUp_MouseMove);
             // 
             // toolStripButton_MoveDown
             // 
             resources.ApplyResources(this.toolStripButton_MoveDown, "toolStripButton_MoveDown");
-            this.toolStripButton_MoveDown.BackgroundImage = global::vts_odu.Properties.Resources.down;
             this.toolStripButton_MoveDown.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_MoveDown.Image = global::vts_odu.Properties.Resources.down11;
             this.toolStripButton_MoveDown.Name = "toolStripButton_MoveDown";
             this.toolStripButton_MoveDown.Click += new System.EventHandler(this.下移ToolStripMenuItem_Click);
-            this.toolStripButton_MoveDown.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_MoveDown.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_MoveDown.MouseLeave += new System.EventHandler(this.toolStripButton_MoveDown_MouseLeave);
+            this.toolStripButton_MoveDown.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_MoveDown_MouseMove);
             // 
             // toolStripButton_ZoomByRect
             // 
             resources.ApplyResources(this.toolStripButton_ZoomByRect, "toolStripButton_ZoomByRect");
-            this.toolStripButton_ZoomByRect.BackgroundImage = global::vts_odu.Properties.Resources.dingwei;
             this.toolStripButton_ZoomByRect.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_ZoomByRect.Image = global::vts_odu.Properties.Resources.dingwei11;
             this.toolStripButton_ZoomByRect.Name = "toolStripButton_ZoomByRect";
             this.toolStripButton_ZoomByRect.Click += new System.EventHandler(this.AreaZoomInButton_Click);
-            this.toolStripButton_ZoomByRect.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_ZoomByRect.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_ZoomByRect.MouseLeave += new System.EventHandler(this.toolStripButton_ZoomByRect_MouseLeave);
+            this.toolStripButton_ZoomByRect.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_ZoomByRect_MouseMove);
             // 
             // toolStripButton_LibMapMan
             // 
             resources.ApplyResources(this.toolStripButton_LibMapMan, "toolStripButton_LibMapMan");
-            this.toolStripButton_LibMapMan.BackgroundImage = global::vts_odu.Properties.Resources.wenjian;
             this.toolStripButton_LibMapMan.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_LibMapMan.Image = global::vts_odu.Properties.Resources.wenjian11;
             this.toolStripButton_LibMapMan.Name = "toolStripButton_LibMapMan";
             this.toolStripButton_LibMapMan.Click += new System.EventHandler(this.MapLibManMenuItem_Click);
-            this.toolStripButton_LibMapMan.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_LibMapMan.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_LibMapMan.MouseLeave += new System.EventHandler(this.toolStripButton_LibMapMan_MouseLeave);
+            this.toolStripButton_LibMapMan.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_LibMapMan_MouseMove);
             // 
             // toolStripSeparator7
             // 
@@ -351,12 +341,12 @@ namespace vts_odu
             // toolStripButton_DrawEBL
             // 
             resources.ApplyResources(this.toolStripButton_DrawEBL, "toolStripButton_DrawEBL");
-            this.toolStripButton_DrawEBL.BackgroundImage = global::vts_odu.Properties.Resources.locking;
             this.toolStripButton_DrawEBL.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_DrawEBL.Image = global::vts_odu.Properties.Resources.jiasuan11;
             this.toolStripButton_DrawEBL.Name = "toolStripButton_DrawEBL";
             this.toolStripButton_DrawEBL.Click += new System.EventHandler(this.toolStripButton_EBL_Click);
-            this.toolStripButton_DrawEBL.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_DrawEBL.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
+            this.toolStripButton_DrawEBL.MouseLeave += new System.EventHandler(this.toolStripButton_DrawEBL_MouseLeave);
+            this.toolStripButton_DrawEBL.MouseMove += new System.Windows.Forms.MouseEventHandler(this.toolStripButton_DrawEBL_MouseMove);
             // 
             // toolStripButton_AddShip
             // 
@@ -364,8 +354,6 @@ namespace vts_odu
             this.toolStripButton_AddShip.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
             this.toolStripButton_AddShip.Name = "toolStripButton_AddShip";
             this.toolStripButton_AddShip.Click += new System.EventHandler(this.toolStripButton_AddShip_Click);
-            this.toolStripButton_AddShip.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_AddShip.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
             // 
             // toolStripButton_AddRadar
             // 
@@ -373,8 +361,6 @@ namespace vts_odu
             this.toolStripButton_AddRadar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
             this.toolStripButton_AddRadar.Name = "toolStripButton_AddRadar";
             this.toolStripButton_AddRadar.Click += new System.EventHandler(this.toolStripButton_AddRadar_Click);
-            this.toolStripButton_AddRadar.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_AddRadar.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
             // 
             // toolStripButton_AddAis
             // 
@@ -382,8 +368,6 @@ namespace vts_odu
             this.toolStripButton_AddAis.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
             this.toolStripButton_AddAis.Name = "toolStripButton_AddAis";
             this.toolStripButton_AddAis.Click += new System.EventHandler(this.toolStripButton_AddAis_Click);
-            this.toolStripButton_AddAis.MouseEnter += new System.EventHandler(this.TS_TOOLBAR_MouseEnter);
-            this.toolStripButton_AddAis.MouseLeave += new System.EventHandler(this.TS_TOOLBAR_MouseLeave);
             // 
             // StartOrStop
             // 
@@ -395,7 +379,6 @@ namespace vts_odu
             // panel_MainInfo
             // 
             this.panel_MainInfo.Controls.Add(this.tabControl_ShowInfo);
-            this.panel_MainInfo.Controls.Add(this.tabControl_shipList);
             resources.ApplyResources(this.panel_MainInfo, "panel_MainInfo");
             this.panel_MainInfo.Name = "panel_MainInfo";
             // 
@@ -547,71 +530,6 @@ namespace vts_odu
             this.label_ship_length.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label_ship_length.Name = "label_ship_length";
             // 
-            // tabControl_shipList
-            // 
-            this.tabControl_shipList.Controls.Add(this.tabPage_Othervessl);
-            resources.ApplyResources(this.tabControl_shipList, "tabControl_shipList");
-            this.tabControl_shipList.Name = "tabControl_shipList";
-            this.tabControl_shipList.SelectedIndex = 0;
-            // 
-            // tabPage_Othervessl
-            // 
-            this.tabPage_Othervessl.Controls.Add(this.dataGridView_ShipList);
-            resources.ApplyResources(this.tabPage_Othervessl, "tabPage_Othervessl");
-            this.tabPage_Othervessl.Name = "tabPage_Othervessl";
-            this.tabPage_Othervessl.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView_ShipList
-            // 
-            this.dataGridView_ShipList.AllowUserToAddRows = false;
-            this.dataGridView_ShipList.AllowUserToDeleteRows = false;
-            this.dataGridView_ShipList.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView_ShipList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            resources.ApplyResources(this.dataGridView_ShipList, "dataGridView_ShipList");
-            this.dataGridView_ShipList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MMSI,
-            this.shipname,
-            this.radarTrack,
-            this.aisTrack});
-            this.dataGridView_ShipList.MultiSelect = false;
-            this.dataGridView_ShipList.Name = "dataGridView_ShipList";
-            this.dataGridView_ShipList.ReadOnly = true;
-            this.dataGridView_ShipList.RowHeadersVisible = false;
-            this.dataGridView_ShipList.RowTemplate.Height = 23;
-            this.dataGridView_ShipList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            // 
-            // MMSI
-            // 
-            this.MMSI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.MMSI.FillWeight = 162.4366F;
-            resources.ApplyResources(this.MMSI, "MMSI");
-            this.MMSI.Name = "MMSI";
-            this.MMSI.ReadOnly = true;
-            // 
-            // shipname
-            // 
-            this.shipname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.shipname.FillWeight = 93.05861F;
-            resources.ApplyResources(this.shipname, "shipname");
-            this.shipname.Name = "shipname";
-            this.shipname.ReadOnly = true;
-            // 
-            // radarTrack
-            // 
-            this.radarTrack.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.radarTrack.FillWeight = 66.90709F;
-            resources.ApplyResources(this.radarTrack, "radarTrack");
-            this.radarTrack.Name = "radarTrack";
-            this.radarTrack.ReadOnly = true;
-            // 
-            // aisTrack
-            // 
-            this.aisTrack.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.aisTrack.FillWeight = 77.59776F;
-            resources.ApplyResources(this.aisTrack, "aisTrack");
-            this.aisTrack.Name = "aisTrack";
-            this.aisTrack.ReadOnly = true;
-            // 
             // panel_mapView
             // 
             this.panel_mapView.Controls.Add(this.panel_MainMap);
@@ -653,7 +571,8 @@ namespace vts_odu
             this.系统设置ToolStripMenuItem,
             this.工具ToolStripMenuItem,
             this.视图ToolStripMenuItem,
-            this.轨迹回放ToolStripMenuItem});
+            this.轨迹回放ToolStripMenuItem,
+            this.aIS数据ToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -670,7 +589,7 @@ namespace vts_odu
             // MapLibManMenu
             // 
             this.MapLibManMenu.BackColor = System.Drawing.SystemColors.Control;
-            this.MapLibManMenu.BackgroundImage = global::vts_odu.Properties.Resources.wenjian2;
+            this.MapLibManMenu.BackgroundImage = global::vts_odu.Properties.Resources.wenjian1;
             resources.ApplyResources(this.MapLibManMenu, "MapLibManMenu");
             this.MapLibManMenu.Name = "MapLibManMenu";
             this.MapLibManMenu.Click += new System.EventHandler(this.MapLibManMenuItem_Click);
@@ -678,7 +597,7 @@ namespace vts_odu
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
-            this.退出ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.close21;
+            this.退出ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.close1;
             resources.ApplyResources(this.退出ToolStripMenuItem, "退出ToolStripMenuItem");
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
@@ -700,15 +619,17 @@ namespace vts_odu
             // 
             // 放大ToolStripMenuItem
             // 
-            this.放大ToolStripMenuItem.Name = "放大ToolStripMenuItem";
+            this.放大ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.zoomIn1;
             resources.ApplyResources(this.放大ToolStripMenuItem, "放大ToolStripMenuItem");
+            this.放大ToolStripMenuItem.Name = "放大ToolStripMenuItem";
             this.放大ToolStripMenuItem.Tag = "";
             this.放大ToolStripMenuItem.Click += new System.EventHandler(this.放大ToolStripMenuItem_Click);
             // 
             // 缩小ToolStripMenuItem
             // 
-            this.缩小ToolStripMenuItem.Name = "缩小ToolStripMenuItem";
+            this.缩小ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.zoomOut1;
             resources.ApplyResources(this.缩小ToolStripMenuItem, "缩小ToolStripMenuItem");
+            this.缩小ToolStripMenuItem.Name = "缩小ToolStripMenuItem";
             this.缩小ToolStripMenuItem.Click += new System.EventHandler(this.缩小ToolStripMenuItem_Click);
             // 
             // 指定比例尺ToolStripMenuItem
@@ -719,26 +640,30 @@ namespace vts_odu
             // 
             // 左移ToolStripMenuItem
             // 
-            this.左移ToolStripMenuItem.Name = "左移ToolStripMenuItem";
+            this.左移ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.left1;
             resources.ApplyResources(this.左移ToolStripMenuItem, "左移ToolStripMenuItem");
+            this.左移ToolStripMenuItem.Name = "左移ToolStripMenuItem";
             this.左移ToolStripMenuItem.Click += new System.EventHandler(this.左移ToolStripMenuItem_Click);
             // 
             // 右移ToolStripMenuItem
             // 
-            this.右移ToolStripMenuItem.Name = "右移ToolStripMenuItem";
+            this.右移ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.right1;
             resources.ApplyResources(this.右移ToolStripMenuItem, "右移ToolStripMenuItem");
+            this.右移ToolStripMenuItem.Name = "右移ToolStripMenuItem";
             this.右移ToolStripMenuItem.Click += new System.EventHandler(this.右移ToolStripMenuItem_Click);
             // 
             // 上移ToolStripMenuItem
             // 
-            this.上移ToolStripMenuItem.Name = "上移ToolStripMenuItem";
+            this.上移ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.up1;
             resources.ApplyResources(this.上移ToolStripMenuItem, "上移ToolStripMenuItem");
+            this.上移ToolStripMenuItem.Name = "上移ToolStripMenuItem";
             this.上移ToolStripMenuItem.Click += new System.EventHandler(this.上移ToolStripMenuItem_Click);
             // 
             // 下移ToolStripMenuItem
             // 
-            this.下移ToolStripMenuItem.Name = "下移ToolStripMenuItem";
+            this.下移ToolStripMenuItem.BackgroundImage = global::vts_odu.Properties.Resources.down1;
             resources.ApplyResources(this.下移ToolStripMenuItem, "下移ToolStripMenuItem");
+            this.下移ToolStripMenuItem.Name = "下移ToolStripMenuItem";
             this.下移ToolStripMenuItem.Click += new System.EventHandler(this.下移ToolStripMenuItem_Click);
             // 
             // 中心点旋转ToolStripMenuItem
@@ -906,8 +831,9 @@ namespace vts_odu
             // 
             // TSMI_Tool_GEO_CALC
             // 
-            this.TSMI_Tool_GEO_CALC.Name = "TSMI_Tool_GEO_CALC";
+            this.TSMI_Tool_GEO_CALC.BackgroundImage = global::vts_odu.Properties.Resources.jiasuan1;
             resources.ApplyResources(this.TSMI_Tool_GEO_CALC, "TSMI_Tool_GEO_CALC");
+            this.TSMI_Tool_GEO_CALC.Name = "TSMI_Tool_GEO_CALC";
             this.TSMI_Tool_GEO_CALC.Click += new System.EventHandler(this.TSMI_Tool_GEO_CALC_Click);
             // 
             // 保存屏幕图片ToolStripMenuItem
@@ -976,6 +902,12 @@ namespace vts_odu
             resources.ApplyResources(this.停止回放ToolStripMenuItem, "停止回放ToolStripMenuItem");
             this.停止回放ToolStripMenuItem.Click += new System.EventHandler(this.停止回放ToolStripMenuItem_Click);
             // 
+            // aIS数据ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.aIS数据ToolStripMenuItem, "aIS数据ToolStripMenuItem");
+            this.aIS数据ToolStripMenuItem.Name = "aIS数据ToolStripMenuItem";
+            this.aIS数据ToolStripMenuItem.Click += new System.EventHandler(this.aIS数据ToolStripMenuItem_Click);
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -1003,9 +935,6 @@ namespace vts_odu
             this.tabPage_BaseInfo.PerformLayout();
             this.tabPage_SettingInfo.ResumeLayout(false);
             this.tabPage_SettingInfo.PerformLayout();
-            this.tabControl_shipList.ResumeLayout(false);
-            this.tabPage_Othervessl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ShipList)).EndInit();
             this.panel_mapView.ResumeLayout(false);
             this.panel_MainMap.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ymEncCtrl)).EndInit();
@@ -1353,15 +1282,9 @@ namespace vts_odu
         private System.Windows.Forms.ToolStripMenuItem 轨迹回放ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 保存屏幕图片ToolStripMenuItem;
         private System.Windows.Forms.Label label_name;
-        private System.Windows.Forms.TabControl tabControl_shipList;
-        private System.Windows.Forms.TabPage tabPage_Othervessl;
-        public System.Windows.Forms.DataGridView dataGridView_ShipList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MMSI;
-        private System.Windows.Forms.DataGridViewTextBoxColumn shipname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn radarTrack;
-        private System.Windows.Forms.DataGridViewTextBoxColumn aisTrack;
         private System.Windows.Forms.ToolStripMenuItem 开始回放ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 停止回放ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aIS数据ToolStripMenuItem;
     }
 }
 

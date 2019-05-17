@@ -650,75 +650,16 @@ namespace vts_odu
             }
         }
 
-        /// <summary>
-        /// 列表添加数据
-        /// </summary>
-        /// <param name="mmsi"></param>
-        /// <param name="shipname"></param>
-        /// <param name="radartrack"></param>
-        /// <param name="aistrack"></param>
-        private void AddShipToDataGirdViewList(int mmsi,String shipname,String radartrack, String aistrack)
-        {
-            int iCurShipCountInList = dataGridView_ShipList.Rows.Count;
-            if(iCurShipCountInList > 0)
-            {
-                bool isIn = false;
-                for (int i = 0; i < iCurShipCountInList; i++)
-                {
-                    int curMMSI = Convert.ToInt32(dataGridView_ShipList.Rows[i].Cells["MMSI"].Value.ToString());
-                    if (curMMSI == mmsi)
-                    {
-                        dataGridView_ShipList.Rows[i].Cells["radarTrack"].Value = (radartrack.Length > 0 ? "" + radartrack : "无");
-                        dataGridView_ShipList.Rows[i].Cells["aisTrack"].Value = (aistrack.Length > 0 ? "" + aistrack : "无");
-                        isIn = true;
-                    }
-                }
-                if(!isIn)
-                {
-                    //添加数据
-                    int listPos = this.dataGridView_ShipList.Rows.Add();
-                    dataGridView_ShipList.Rows[listPos].Cells["MMSI"].Value = mmsi;
-                    dataGridView_ShipList.Rows[listPos].Cells["shipname"].Value = shipname;
-                    dataGridView_ShipList.Rows[listPos].Cells["radarTrack"].Value = (radartrack.Length > 0 ? "" + radartrack : "无");
-                    dataGridView_ShipList.Rows[listPos].Cells["aisTrack"].Value = (aistrack.Length > 0 ? "" + aistrack : "无");
-                }
-            }
-            else
-            {
-                //添加数据
-                int listPos = this.dataGridView_ShipList.Rows.Add();
-                dataGridView_ShipList.Rows[listPos].Cells["MMSI"].Value = mmsi;
-                dataGridView_ShipList.Rows[listPos].Cells["shipname"].Value = shipname;
-                dataGridView_ShipList.Rows[listPos].Cells["radarTrack"].Value = (radartrack.Length > 0 ? "" + radartrack : "无");
-                dataGridView_ShipList.Rows[listPos].Cells["aisTrack"].Value = (aistrack.Length > 0 ? "" + aistrack : "无");
-            }
-        }
-
         private void InitDataGridViewStyle()
         {
-            this.dataGridView_ShipList.SelectionMode = DataGridViewSelectionMode.FullRowSelect;//选中整行
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dataGridView_ShipList.AllowUserToAddRows = false;
-            this.dataGridView_ShipList.AllowUserToDeleteRows = false;
-            this.dataGridView_ShipList.BackColor = System.Drawing.Color.LightCyan;
-            this.dataGridView_ShipList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView_ShipList.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView_ShipList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView_ShipList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-
+   
             //头样式
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;//211, 223, 240
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.AliceBlue;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dataGridView_ShipList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView_ShipList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_ShipList.EnableHeadersVisualStyles = false;
-            this.dataGridView_ShipList.GridColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.dataGridView_ShipList.ReadOnly = true;
-            this.dataGridView_ShipList.RowHeadersVisible = false;
-            this.dataGridView_ShipList.RowTemplate.ReadOnly = true;
         }
 
         //绘制
@@ -746,7 +687,6 @@ namespace vts_odu
             {
                 int totalHeight = this.panel_MainInfo.Height;
                 tabControl_ShowInfo.Height = totalHeight / 2;
-                tabControl_shipList.Height = totalHeight / 2;
             }
             ReSizeMapView();
             m_bFormShowOk = true;
@@ -1222,88 +1162,6 @@ namespace vts_odu
             this.TSSL_Scale.Text = " 1:" + Math.Round((double)this.ymEncCtrl.GetCurrentScale(), 0).ToString().Trim();
         }
 
-        private void TS_TOOLBAR_MouseEnter(object sender, EventArgs e)
-        {
-            if (sender == this.toolStripButton_ZoomIn)          //放大按钮
-            {
-                this.toolStripButton_ZoomIn.BackgroundImage = Properties.Resources.zoomIn;
-            }
-            else if (sender == this.toolStripButton_ZoomOut)    //缩小按钮
-            {
-                this.toolStripButton_ZoomOut.BackgroundImage = Properties.Resources.zoomOut;
-            }
-
-            else if (sender == this.toolStripButton_MoveLeft)   //向左移动
-            {
-                this.toolStripButton_MoveLeft.BackgroundImage = Properties.Resources.left;
-            }
-
-            else if (sender == this.toolStripButton_MoveRight)  //向右移动
-            {
-                this.toolStripButton_MoveRight.BackgroundImage = Properties.Resources.right;
-            }
-
-            else if (sender == this.toolStripButton_MoveUp)     //向上移动
-            {
-                this.toolStripButton_MoveUp.BackgroundImage = Properties.Resources.up;
-            }
-
-            else if (sender == this.toolStripButton_MoveDown)   //向下移动
-            {
-                this.toolStripButton_MoveDown.BackgroundImage = Properties.Resources.down;
-            }
-
-            else if (sender == this.toolStripButton_ZoomByRect)     //拉框放大
-            {
-                this.toolStripButton_ZoomByRect.BackgroundImage = Properties.Resources.dingwei;
-            }
-            else if (sender == this.toolStripButton_LibMapMan)//图幅管理
-            {
-                this.toolStripButton_LibMapMan.BackgroundImage = Properties.Resources.wenjian;
-            }
-        }
-
-        private void TS_TOOLBAR_MouseLeave(object sender, EventArgs e)
-        {
-            if (sender == this.toolStripButton_ZoomIn)          //放大按钮
-            {
-                this.toolStripButton_ZoomIn.BackgroundImage = Properties.Resources.zoomIn;
-            }
-            else if (sender == this.toolStripButton_ZoomOut)    //缩小按钮
-            {
-                this.toolStripButton_ZoomOut.BackgroundImage = Properties.Resources.zoomOut;
-            }
-
-            else if (sender == this.toolStripButton_MoveLeft)   //向左移动
-            {
-                this.toolStripButton_MoveLeft.BackgroundImage = Properties.Resources.left;
-            }
-
-            else if (sender == this.toolStripButton_MoveRight)  //向右移动
-            {
-                this.toolStripButton_MoveRight.BackgroundImage = Properties.Resources.right;
-            }
-
-            else if (sender == this.toolStripButton_MoveUp)     //向上移动
-            {
-                this.toolStripButton_MoveUp.BackgroundImage = Properties.Resources.up;
-            }
-
-            else if (sender == this.toolStripButton_MoveDown)   //向下移动
-            {
-                this.toolStripButton_MoveDown.BackgroundImage = Properties.Resources.down;
-            }
-
-            else if (sender == this.toolStripButton_ZoomByRect)     //拉框放大
-            {
-                this.toolStripButton_ZoomByRect.BackgroundImage = Properties.Resources.dingwei;
-            }
-            else if (sender == this.toolStripButton_LibMapMan)//图幅管理
-            {
-                this.toolStripButton_LibMapMan.BackgroundImage = Properties.Resources.wenjian;
-            }
-        }
-
         //修改海图窗口的大小
         private void ReSizeMapView()
         {
@@ -1418,10 +1276,6 @@ namespace vts_odu
                         ymEncCtrl.SetRadarShowState(radarYMPos,false,Convert.ToBoolean(radarList[currentSelecteRadar.radarID].radarShowType));
                         currentSelecteRadar = null;
                         //清空数据
-                        while (this.dataGridView_ShipList.Rows.Count != 0)
-                        {
-                            this.dataGridView_ShipList.Rows.RemoveAt(0);
-                        }
                         RedrawMapScreen();
                     }
                     else
@@ -1448,10 +1302,7 @@ namespace vts_odu
                                     int radarMapPos = ymEncCtrl.GetRadarPosById(currentSelecteRadar.radarMapID);
                                     ymEncCtrl.SetRadarShowState(radarMapPos, false, Convert.ToBoolean(currentSelecteRadar.radarShowType));
                                     //清空数据
-                                    while (this.dataGridView_ShipList.Rows.Count != 0)
-                                    {
-                                        this.dataGridView_ShipList.Rows.RemoveAt(0);
-                                    }
+                                  
                                     RedrawMapScreen();
                                 }
                             }
@@ -1500,10 +1351,6 @@ namespace vts_odu
                         aisList[currentSelecteAis.aisID].aisUseOrNot = 0;
                         currentSelecteAis = null;
                         //清空数据
-                        while (this.dataGridView_ShipList.Rows.Count != 0)
-                        {
-                            this.dataGridView_ShipList.Rows.RemoveAt(0);
-                        }
                         RedrawMapScreen();
                     }
                     else
@@ -1525,11 +1372,6 @@ namespace vts_odu
                                     //bool result = aisList.Remove(currentSelecteAis);
                                     aisList[i].aisUseOrNot = -1;
                                     MessageBox.Show("AIS基站：" + currentSelecteAis.aisName + "已经被成功移除！");
-                                    //清空数据
-                                    while (this.dataGridView_ShipList.Rows.Count != 0)
-                                    {
-                                        this.dataGridView_ShipList.Rows.RemoveAt(0);
-                                    }
                                     RedrawMapScreen();
                                 }    
                             }
@@ -2399,86 +2241,100 @@ namespace vts_odu
             return result;
         }
 
-        private void toolStripButton_ZoomIn_MouseHover(object sender, EventArgs e)
+        private void toolStripButton_ZoomIn_MouseMove_1(object sender, MouseEventArgs e)
         {
-            if (sender == this.toolStripButton_ZoomIn)          //放大按钮
-            {
-                this.toolStripButton_ZoomIn.BackgroundImage = Properties.Resources.zoomIn;
-            }
-            else if (sender == this.toolStripButton_ZoomOut)    //缩小按钮
-            {
-                this.toolStripButton_ZoomOut.BackgroundImage = Properties.Resources.zoomOut;
-            }
-
-            else if (sender == this.toolStripButton_MoveLeft)   //向左移动
-            {
-                this.toolStripButton_MoveLeft.BackgroundImage = Properties.Resources.left;
-            }
-
-            else if (sender == this.toolStripButton_MoveRight)  //向右移动
-            {
-                this.toolStripButton_MoveRight.BackgroundImage = Properties.Resources.right;
-            }
-
-            else if (sender == this.toolStripButton_MoveUp)     //向上移动
-            {
-                this.toolStripButton_MoveUp.BackgroundImage = Properties.Resources.up;
-            }
-
-            else if (sender == this.toolStripButton_MoveDown)   //向下移动
-            {
-                this.toolStripButton_MoveDown.BackgroundImage = Properties.Resources.down;
-            }
-
-            else if (sender == this.toolStripButton_ZoomByRect)     //拉框放大
-            {
-                this.toolStripButton_ZoomByRect.BackgroundImage = Properties.Resources.dingwei;
-            }
-            else if (sender == this.toolStripButton_LibMapMan)//图幅管理
-            {
-                this.toolStripButton_LibMapMan.BackgroundImage = Properties.Resources.wenjian;
-            }
+            this.toolStripButton_ZoomIn.Image = Properties.Resources.zoomIn21;
         }
 
-        private void toolStripButton_ZoomIn_MouseMove(object sender, MouseEventArgs e)
+        private void toolStripButton_ZoomIn_MouseLeave(object sender, EventArgs e)
         {
-            if (sender == this.toolStripButton_ZoomIn)          //放大按钮
-            {
-                this.toolStripButton_ZoomIn.BackgroundImage = Properties.Resources.zoomIn;
-            }
-            else if (sender == this.toolStripButton_ZoomOut)    //缩小按钮
-            {
-                this.toolStripButton_ZoomOut.BackgroundImage = Properties.Resources.zoomOut;
-            }
+            this.toolStripButton_ZoomIn.Image = Properties.Resources.zoomIn11;
+        }
 
-            else if (sender == this.toolStripButton_MoveLeft)   //向左移动
-            {
-                this.toolStripButton_MoveLeft.BackgroundImage = Properties.Resources.left;
-            }
+        private void toolStripButton_ZoomOut_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_ZoomOut.Image = Properties.Resources.zoomOut21;
+        }
 
-            else if (sender == this.toolStripButton_MoveRight)  //向右移动
-            {
-                this.toolStripButton_MoveRight.BackgroundImage = Properties.Resources.right;
-            }
+        private void toolStripButton_ZoomOut_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_ZoomOut.Image = Properties.Resources.zoomOut11;
+        }
 
-            else if (sender == this.toolStripButton_MoveUp)     //向上移动
-            {
-                this.toolStripButton_MoveUp.BackgroundImage = Properties.Resources.up;
-            }
+        private void toolStripButton_MoveLeft_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_MoveLeft.Image = Properties.Resources.left21;
+        }
 
-            else if (sender == this.toolStripButton_MoveDown)   //向下移动
-            {
-                this.toolStripButton_MoveDown.BackgroundImage = Properties.Resources.down;
-            }
+        private void toolStripButton_MoveLeft_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_MoveLeft.Image = Properties.Resources.left11;
+        }
 
-            else if (sender == this.toolStripButton_ZoomByRect)     //拉框放大
-            {
-                this.toolStripButton_ZoomByRect.BackgroundImage = Properties.Resources.dingwei;
-            }
-            else if (sender == this.toolStripButton_LibMapMan)//图幅管理
-            {
-                this.toolStripButton_LibMapMan.BackgroundImage = Properties.Resources.wenjian;
-            }
+        private void toolStripButton_MoveRight_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_MoveRight.Image = Properties.Resources.right21;
+        }
+
+        private void toolStripButton_MoveRight_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_MoveRight.Image = Properties.Resources.right11;
+        }
+
+        private void toolStripButton_MoveUp_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_MoveUp.Image = Properties.Resources.up11;
+        }
+
+        private void toolStripButton_MoveUp_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_MoveUp.Image = Properties.Resources.up21;
+        }
+
+        private void toolStripButton_MoveDown_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_MoveDown.Image = Properties.Resources.down21;
+        }
+
+        private void toolStripButton_MoveDown_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_MoveDown.Image = Properties.Resources.down11;
+        }
+
+        private void toolStripButton_ZoomByRect_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_ZoomByRect.Image = Properties.Resources.dingwei21;
+        }
+
+        private void toolStripButton_ZoomByRect_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_ZoomByRect.Image = Properties.Resources.dingwei11;
+        }
+
+        private void toolStripButton_LibMapMan_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_LibMapMan.Image = Properties.Resources.wenjian21;
+        }
+
+        private void toolStripButton_LibMapMan_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_LibMapMan.Image = Properties.Resources.wenjian11;
+        }
+
+        private void toolStripButton_DrawEBL_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.toolStripButton_DrawEBL.Image = Properties.Resources.jiasuan22;
+        }
+
+        private void toolStripButton_DrawEBL_MouseLeave(object sender, EventArgs e)
+        {
+            this.toolStripButton_DrawEBL.Image = Properties.Resources.jiasuan11;
+        }
+
+        private void aIS数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AisList aisList = new AisList();
+            aisList.ShowDialog();
         }
     }
 }
