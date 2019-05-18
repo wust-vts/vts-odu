@@ -29509,3 +29509,718 @@
 2019-05-14, 14:20:25   CMGdc::InitMGdc
 2019-05-14, 14:20:25   绘制池不足，建立新绘制器： 3
 2019-05-14, 14:20:56   To exit yimaenc....
+2019-05-17, 17:11:25   -----APP START-----
+
+
+2019-05-17, 17:11:25   ----------YimaEnc Control started ----------
+2019-05-17, 17:11:25   Begin to VerifyUserLicense! .........
+2019-05-17, 17:11:25   服务许可验证失败，转为本地检测
+2019-05-17, 17:11:25   Success to VerifyUserLicense.
+2019-05-17, 17:11:25   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 17:11:26   DGPS01
+2019-05-17, 17:11:26   DGPS01
+2019-05-17, 17:11:26   CMGdc::InitMGdc
+2019-05-17, 17:11:26   绘制池不足，建立新绘制器： 1
+2019-05-17, 17:11:26   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 17:11:26   +++++ Init success! ++++++
+2019-05-17, 17:11:26   RefreshDrawer beg!
+2019-05-17, 17:11:26   CMGdc::InitMGdc
+2019-05-17, 17:11:26   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 17:11:26   CMGdc::InitMGdc
+2019-05-17, 17:11:26   CMGdc::InitMGdc
+2019-05-17, 17:11:26   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 17:11:26   RefreshDrawer suc!
+2019-05-17, 17:11:34   To exit yimaenc....
+2019-05-17, 17:12:39   -----APP START-----
+
+
+2019-05-17, 17:12:39   ----------YimaEnc Control started ----------
+2019-05-17, 17:12:39   Begin to VerifyUserLicense! .........
+2019-05-17, 17:12:39   服务许可验证失败，转为本地检测
+2019-05-17, 17:12:39   Success to VerifyUserLicense.
+2019-05-17, 17:12:39   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 17:12:39   DGPS01
+2019-05-17, 17:12:39   DGPS01
+2019-05-17, 17:12:39   CMGdc::InitMGdc
+2019-05-17, 17:12:39   绘制池不足，建立新绘制器： 1
+2019-05-17, 17:12:39   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 17:12:39   +++++ Init success! ++++++
+2019-05-17, 17:12:39   RefreshDrawer beg!
+2019-05-17, 17:12:39   CMGdc::InitMGdc
+2019-05-17, 17:12:39   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 17:12:39   CMGdc::InitMGdc
+2019-05-17, 17:12:39   CMGdc::InitMGdc
+2019-05-17, 17:12:39   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 17:12:39   RefreshDrawer suc!
+2019-05-17, 17:12:46   To exit yimaenc....
+2019-05-17, 20:44:58   -----APP START-----
+
+
+2019-05-17, 20:44:58   ----------YimaEnc Control started ----------
+2019-05-17, 20:44:58   Begin to VerifyUserLicense! .........
+2019-05-17, 20:44:58   服务许可验证失败，转为本地检测
+2019-05-17, 20:44:58   Success to VerifyUserLicense.
+2019-05-17, 20:44:58   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 20:44:58   DGPS01
+2019-05-17, 20:44:58   DGPS01
+2019-05-17, 20:44:58   CMGdc::InitMGdc
+2019-05-17, 20:44:58   绘制池不足，建立新绘制器： 1
+2019-05-17, 20:44:58   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 20:44:58   +++++ Init success! ++++++
+2019-05-17, 20:44:58   RefreshDrawer beg!
+2019-05-17, 20:44:58   CMGdc::InitMGdc
+2019-05-17, 20:44:58   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 20:44:58   CMGdc::InitMGdc
+2019-05-17, 20:44:58   CMGdc::InitMGdc
+2019-05-17, 20:44:58   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 20:44:58   RefreshDrawer suc!
+2019-05-17, 20:45:01   To exit yimaenc....
+2019-05-17, 20:46:16   -----APP START-----
+
+
+2019-05-17, 20:46:16   ----------YimaEnc Control started ----------
+2019-05-17, 20:46:16   Begin to VerifyUserLicense! .........
+2019-05-17, 20:46:16   服务许可验证失败，转为本地检测
+2019-05-17, 20:46:16   Success to VerifyUserLicense.
+2019-05-17, 20:46:16   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 20:46:16   DGPS01
+2019-05-17, 20:46:16   DGPS01
+2019-05-17, 20:46:16   CMGdc::InitMGdc
+2019-05-17, 20:46:16   绘制池不足，建立新绘制器： 1
+2019-05-17, 20:46:16   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 20:46:16   +++++ Init success! ++++++
+2019-05-17, 20:46:16   RefreshDrawer beg!
+2019-05-17, 20:46:16   CMGdc::InitMGdc
+2019-05-17, 20:46:16   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 20:46:16   CMGdc::InitMGdc
+2019-05-17, 20:46:16   CMGdc::InitMGdc
+2019-05-17, 20:46:16   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 20:46:16   RefreshDrawer suc!
+2019-05-17, 20:46:26   To exit yimaenc....
+2019-05-17, 20:48:14   -----APP START-----
+
+
+2019-05-17, 20:48:14   ----------YimaEnc Control started ----------
+2019-05-17, 20:48:14   Begin to VerifyUserLicense! .........
+2019-05-17, 20:48:14   服务许可验证失败，转为本地检测
+2019-05-17, 20:48:14   Success to VerifyUserLicense.
+2019-05-17, 20:48:14   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 20:48:14   DGPS01
+2019-05-17, 20:48:14   DGPS01
+2019-05-17, 20:48:14   CMGdc::InitMGdc
+2019-05-17, 20:48:14   绘制池不足，建立新绘制器： 1
+2019-05-17, 20:48:14   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 20:48:14   +++++ Init success! ++++++
+2019-05-17, 20:48:14   RefreshDrawer beg!
+2019-05-17, 20:48:14   CMGdc::InitMGdc
+2019-05-17, 20:48:14   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 20:48:14   CMGdc::InitMGdc
+2019-05-17, 20:48:14   CMGdc::InitMGdc
+2019-05-17, 20:48:14   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 20:48:14   RefreshDrawer suc!
+2019-05-17, 20:48:21   To exit yimaenc....
+2019-05-17, 20:51:05   -----APP START-----
+
+
+2019-05-17, 20:51:05   ----------YimaEnc Control started ----------
+2019-05-17, 20:51:05   Begin to VerifyUserLicense! .........
+2019-05-17, 20:51:05   服务许可验证失败，转为本地检测
+2019-05-17, 20:51:05   Success to VerifyUserLicense.
+2019-05-17, 20:51:05   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 20:51:05   DGPS01
+2019-05-17, 20:51:05   DGPS01
+2019-05-17, 20:51:05   CMGdc::InitMGdc
+2019-05-17, 20:51:05   绘制池不足，建立新绘制器： 1
+2019-05-17, 20:51:05   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 20:51:05   +++++ Init success! ++++++
+2019-05-17, 20:51:05   RefreshDrawer beg!
+2019-05-17, 20:51:05   CMGdc::InitMGdc
+2019-05-17, 20:51:05   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 20:51:05   CMGdc::InitMGdc
+2019-05-17, 20:51:05   CMGdc::InitMGdc
+2019-05-17, 20:51:05   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 20:51:05   RefreshDrawer suc!
+2019-05-17, 20:51:12   To exit yimaenc....
+2019-05-17, 20:54:58   -----APP START-----
+
+
+2019-05-17, 20:54:58   ----------YimaEnc Control started ----------
+2019-05-17, 20:54:58   Begin to VerifyUserLicense! .........
+2019-05-17, 20:54:58   服务许可验证失败，转为本地检测
+2019-05-17, 20:54:58   Success to VerifyUserLicense.
+2019-05-17, 20:54:58   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 20:54:58   DGPS01
+2019-05-17, 20:54:58   DGPS01
+2019-05-17, 20:54:58   CMGdc::InitMGdc
+2019-05-17, 20:54:58   绘制池不足，建立新绘制器： 1
+2019-05-17, 20:54:58   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 20:54:58   +++++ Init success! ++++++
+2019-05-17, 20:54:58   RefreshDrawer beg!
+2019-05-17, 20:54:58   CMGdc::InitMGdc
+2019-05-17, 20:54:58   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 20:54:58   CMGdc::InitMGdc
+2019-05-17, 20:54:58   CMGdc::InitMGdc
+2019-05-17, 20:54:58   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 20:54:58   RefreshDrawer suc!
+2019-05-17, 20:55:05   To exit yimaenc....
+2019-05-17, 21:05:29   -----APP START-----
+
+
+2019-05-17, 21:05:29   ----------YimaEnc Control started ----------
+2019-05-17, 21:05:29   Begin to VerifyUserLicense! .........
+2019-05-17, 21:05:29   服务许可验证失败，转为本地检测
+2019-05-17, 21:05:29   Success to VerifyUserLicense.
+2019-05-17, 21:05:29   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:05:29   DGPS01
+2019-05-17, 21:05:29   DGPS01
+2019-05-17, 21:05:29   CMGdc::InitMGdc
+2019-05-17, 21:05:29   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:05:29   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:05:29   +++++ Init success! ++++++
+2019-05-17, 21:05:29   RefreshDrawer beg!
+2019-05-17, 21:05:29   CMGdc::InitMGdc
+2019-05-17, 21:05:29   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:05:29   CMGdc::InitMGdc
+2019-05-17, 21:05:29   CMGdc::InitMGdc
+2019-05-17, 21:05:29   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:05:29   RefreshDrawer suc!
+2019-05-17, 21:05:38   To exit yimaenc....
+2019-05-17, 21:06:23   -----APP START-----
+
+
+2019-05-17, 21:06:23   ----------YimaEnc Control started ----------
+2019-05-17, 21:06:23   Begin to VerifyUserLicense! .........
+2019-05-17, 21:06:23   服务许可验证失败，转为本地检测
+2019-05-17, 21:06:23   Success to VerifyUserLicense.
+2019-05-17, 21:06:23   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:06:23   DGPS01
+2019-05-17, 21:06:23   DGPS01
+2019-05-17, 21:06:23   CMGdc::InitMGdc
+2019-05-17, 21:06:23   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:06:23   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:06:23   +++++ Init success! ++++++
+2019-05-17, 21:06:23   RefreshDrawer beg!
+2019-05-17, 21:06:23   CMGdc::InitMGdc
+2019-05-17, 21:06:23   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:06:23   CMGdc::InitMGdc
+2019-05-17, 21:06:23   CMGdc::InitMGdc
+2019-05-17, 21:06:23   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:06:23   RefreshDrawer suc!
+2019-05-17, 21:06:28   To exit yimaenc....
+2019-05-17, 21:06:48   -----APP START-----
+
+
+2019-05-17, 21:06:48   ----------YimaEnc Control started ----------
+2019-05-17, 21:06:48   Begin to VerifyUserLicense! .........
+2019-05-17, 21:06:48   服务许可验证失败，转为本地检测
+2019-05-17, 21:06:48   Success to VerifyUserLicense.
+2019-05-17, 21:06:48   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:06:48   DGPS01
+2019-05-17, 21:06:48   DGPS01
+2019-05-17, 21:06:48   CMGdc::InitMGdc
+2019-05-17, 21:06:48   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:06:48   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:06:48   +++++ Init success! ++++++
+2019-05-17, 21:06:48   RefreshDrawer beg!
+2019-05-17, 21:06:48   CMGdc::InitMGdc
+2019-05-17, 21:06:48   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:06:48   CMGdc::InitMGdc
+2019-05-17, 21:06:48   CMGdc::InitMGdc
+2019-05-17, 21:06:48   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:06:48   RefreshDrawer suc!
+2019-05-17, 21:06:54   To exit yimaenc....
+2019-05-17, 21:16:19   -----APP START-----
+
+
+2019-05-17, 21:16:19   ----------YimaEnc Control started ----------
+2019-05-17, 21:16:19   Begin to VerifyUserLicense! .........
+2019-05-17, 21:16:19   服务许可验证失败，转为本地检测
+2019-05-17, 21:16:19   Success to VerifyUserLicense.
+2019-05-17, 21:16:19   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:16:19   DGPS01
+2019-05-17, 21:16:19   DGPS01
+2019-05-17, 21:16:19   CMGdc::InitMGdc
+2019-05-17, 21:16:19   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:16:19   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:16:19   +++++ Init success! ++++++
+2019-05-17, 21:16:19   RefreshDrawer beg!
+2019-05-17, 21:16:19   CMGdc::InitMGdc
+2019-05-17, 21:16:19   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:16:19   CMGdc::InitMGdc
+2019-05-17, 21:16:19   CMGdc::InitMGdc
+2019-05-17, 21:16:19   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:16:19   RefreshDrawer suc!
+2019-05-17, 21:16:29   To exit yimaenc....
+2019-05-17, 21:16:59   -----APP START-----
+
+
+2019-05-17, 21:16:59   ----------YimaEnc Control started ----------
+2019-05-17, 21:16:59   Begin to VerifyUserLicense! .........
+2019-05-17, 21:16:59   服务许可验证失败，转为本地检测
+2019-05-17, 21:16:59   Success to VerifyUserLicense.
+2019-05-17, 21:16:59   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:16:59   DGPS01
+2019-05-17, 21:16:59   DGPS01
+2019-05-17, 21:16:59   CMGdc::InitMGdc
+2019-05-17, 21:16:59   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:16:59   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:16:59   +++++ Init success! ++++++
+2019-05-17, 21:16:59   RefreshDrawer beg!
+2019-05-17, 21:16:59   CMGdc::InitMGdc
+2019-05-17, 21:16:59   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:16:59   CMGdc::InitMGdc
+2019-05-17, 21:16:59   CMGdc::InitMGdc
+2019-05-17, 21:16:59   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:16:59   RefreshDrawer suc!
+2019-05-17, 21:17:05   To exit yimaenc....
+2019-05-17, 21:17:25   -----APP START-----
+
+
+2019-05-17, 21:17:25   ----------YimaEnc Control started ----------
+2019-05-17, 21:17:25   Begin to VerifyUserLicense! .........
+2019-05-17, 21:17:25   服务许可验证失败，转为本地检测
+2019-05-17, 21:17:25   Success to VerifyUserLicense.
+2019-05-17, 21:17:25   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:17:25   DGPS01
+2019-05-17, 21:17:25   DGPS01
+2019-05-17, 21:17:26   CMGdc::InitMGdc
+2019-05-17, 21:17:26   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:17:26   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:17:26   +++++ Init success! ++++++
+2019-05-17, 21:17:26   RefreshDrawer beg!
+2019-05-17, 21:17:26   CMGdc::InitMGdc
+2019-05-17, 21:17:26   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:17:26   CMGdc::InitMGdc
+2019-05-17, 21:17:26   CMGdc::InitMGdc
+2019-05-17, 21:17:26   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:17:26   RefreshDrawer suc!
+2019-05-17, 21:17:36   To exit yimaenc....
+2019-05-17, 21:18:00   -----APP START-----
+
+
+2019-05-17, 21:18:00   ----------YimaEnc Control started ----------
+2019-05-17, 21:18:00   Begin to VerifyUserLicense! .........
+2019-05-17, 21:18:00   服务许可验证失败，转为本地检测
+2019-05-17, 21:18:00   Success to VerifyUserLicense.
+2019-05-17, 21:18:00   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:18:00   DGPS01
+2019-05-17, 21:18:00   DGPS01
+2019-05-17, 21:18:00   CMGdc::InitMGdc
+2019-05-17, 21:18:00   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:18:00   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:18:00   +++++ Init success! ++++++
+2019-05-17, 21:18:00   RefreshDrawer beg!
+2019-05-17, 21:18:00   CMGdc::InitMGdc
+2019-05-17, 21:18:00   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:18:00   CMGdc::InitMGdc
+2019-05-17, 21:18:00   CMGdc::InitMGdc
+2019-05-17, 21:18:00   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:18:00   RefreshDrawer suc!
+2019-05-17, 21:18:13   To exit yimaenc....
+2019-05-17, 21:18:29   -----APP START-----
+
+
+2019-05-17, 21:18:29   ----------YimaEnc Control started ----------
+2019-05-17, 21:18:29   Begin to VerifyUserLicense! .........
+2019-05-17, 21:18:29   服务许可验证失败，转为本地检测
+2019-05-17, 21:18:29   Success to VerifyUserLicense.
+2019-05-17, 21:18:29   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:18:29   DGPS01
+2019-05-17, 21:18:29   DGPS01
+2019-05-17, 21:18:29   CMGdc::InitMGdc
+2019-05-17, 21:18:29   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:18:29   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:18:29   +++++ Init success! ++++++
+2019-05-17, 21:18:29   RefreshDrawer beg!
+2019-05-17, 21:18:29   CMGdc::InitMGdc
+2019-05-17, 21:18:29   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:18:29   CMGdc::InitMGdc
+2019-05-17, 21:18:29   CMGdc::InitMGdc
+2019-05-17, 21:18:29   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:18:29   RefreshDrawer suc!
+2019-05-17, 21:18:37   To exit yimaenc....
+2019-05-17, 21:21:02   -----APP START-----
+
+
+2019-05-17, 21:21:02   ----------YimaEnc Control started ----------
+2019-05-17, 21:21:02   Begin to VerifyUserLicense! .........
+2019-05-17, 21:21:02   服务许可验证失败，转为本地检测
+2019-05-17, 21:21:02   Success to VerifyUserLicense.
+2019-05-17, 21:21:03   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:21:03   DGPS01
+2019-05-17, 21:21:03   DGPS01
+2019-05-17, 21:21:03   CMGdc::InitMGdc
+2019-05-17, 21:21:03   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:21:03   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:21:03   +++++ Init success! ++++++
+2019-05-17, 21:21:03   RefreshDrawer beg!
+2019-05-17, 21:21:03   CMGdc::InitMGdc
+2019-05-17, 21:21:03   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:21:03   CMGdc::InitMGdc
+2019-05-17, 21:21:03   CMGdc::InitMGdc
+2019-05-17, 21:21:03   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:21:03   RefreshDrawer suc!
+2019-05-17, 21:21:19   To exit yimaenc....
+2019-05-17, 21:22:14   -----APP START-----
+
+
+2019-05-17, 21:22:14   ----------YimaEnc Control started ----------
+2019-05-17, 21:22:14   Begin to VerifyUserLicense! .........
+2019-05-17, 21:22:14   服务许可验证失败，转为本地检测
+2019-05-17, 21:22:14   Success to VerifyUserLicense.
+2019-05-17, 21:22:14   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:22:14   DGPS01
+2019-05-17, 21:22:14   DGPS01
+2019-05-17, 21:22:14   CMGdc::InitMGdc
+2019-05-17, 21:22:14   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:22:14   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:22:14   +++++ Init success! ++++++
+2019-05-17, 21:22:14   RefreshDrawer beg!
+2019-05-17, 21:22:14   CMGdc::InitMGdc
+2019-05-17, 21:22:14   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:22:14   CMGdc::InitMGdc
+2019-05-17, 21:22:14   CMGdc::InitMGdc
+2019-05-17, 21:22:14   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:22:14   RefreshDrawer suc!
+2019-05-17, 21:22:20   To exit yimaenc....
+2019-05-17, 21:23:43   -----APP START-----
+
+
+2019-05-17, 21:23:43   ----------YimaEnc Control started ----------
+2019-05-17, 21:23:43   Begin to VerifyUserLicense! .........
+2019-05-17, 21:23:43   服务许可验证失败，转为本地检测
+2019-05-17, 21:23:43   Success to VerifyUserLicense.
+2019-05-17, 21:23:43   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:23:43   DGPS01
+2019-05-17, 21:23:43   DGPS01
+2019-05-17, 21:23:43   CMGdc::InitMGdc
+2019-05-17, 21:23:43   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:23:43   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:23:43   +++++ Init success! ++++++
+2019-05-17, 21:23:43   RefreshDrawer beg!
+2019-05-17, 21:23:43   CMGdc::InitMGdc
+2019-05-17, 21:23:43   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:23:43   CMGdc::InitMGdc
+2019-05-17, 21:23:43   CMGdc::InitMGdc
+2019-05-17, 21:23:43   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:23:43   RefreshDrawer suc!
+2019-05-17, 21:23:56   To exit yimaenc....
+2019-05-17, 21:24:24   -----APP START-----
+
+
+2019-05-17, 21:24:24   ----------YimaEnc Control started ----------
+2019-05-17, 21:24:24   Begin to VerifyUserLicense! .........
+2019-05-17, 21:24:24   服务许可验证失败，转为本地检测
+2019-05-17, 21:24:24   Success to VerifyUserLicense.
+2019-05-17, 21:24:24   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:24:24   DGPS01
+2019-05-17, 21:24:24   DGPS01
+2019-05-17, 21:24:24   CMGdc::InitMGdc
+2019-05-17, 21:24:24   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:24:24   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:24:24   +++++ Init success! ++++++
+2019-05-17, 21:24:24   RefreshDrawer beg!
+2019-05-17, 21:24:24   CMGdc::InitMGdc
+2019-05-17, 21:24:24   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:24:24   CMGdc::InitMGdc
+2019-05-17, 21:24:24   CMGdc::InitMGdc
+2019-05-17, 21:24:24   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:24:24   RefreshDrawer suc!
+2019-05-17, 21:24:32   To exit yimaenc....
+2019-05-17, 21:24:56   -----APP START-----
+
+
+2019-05-17, 21:24:56   ----------YimaEnc Control started ----------
+2019-05-17, 21:24:56   Begin to VerifyUserLicense! .........
+2019-05-17, 21:24:56   服务许可验证失败，转为本地检测
+2019-05-17, 21:24:56   Success to VerifyUserLicense.
+2019-05-17, 21:24:56   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:24:56   DGPS01
+2019-05-17, 21:24:56   DGPS01
+2019-05-17, 21:24:56   CMGdc::InitMGdc
+2019-05-17, 21:24:56   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:24:56   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:24:56   +++++ Init success! ++++++
+2019-05-17, 21:24:56   RefreshDrawer beg!
+2019-05-17, 21:24:56   CMGdc::InitMGdc
+2019-05-17, 21:24:56   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:24:56   CMGdc::InitMGdc
+2019-05-17, 21:24:56   CMGdc::InitMGdc
+2019-05-17, 21:24:56   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:24:56   RefreshDrawer suc!
+2019-05-17, 21:25:06   To exit yimaenc....
+2019-05-17, 21:25:22   -----APP START-----
+
+
+2019-05-17, 21:25:22   ----------YimaEnc Control started ----------
+2019-05-17, 21:25:22   Begin to VerifyUserLicense! .........
+2019-05-17, 21:25:22   服务许可验证失败，转为本地检测
+2019-05-17, 21:25:22   Success to VerifyUserLicense.
+2019-05-17, 21:25:22   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:25:22   DGPS01
+2019-05-17, 21:25:22   DGPS01
+2019-05-17, 21:25:22   CMGdc::InitMGdc
+2019-05-17, 21:25:22   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:25:22   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:25:22   +++++ Init success! ++++++
+2019-05-17, 21:25:22   RefreshDrawer beg!
+2019-05-17, 21:25:22   CMGdc::InitMGdc
+2019-05-17, 21:25:22   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:25:22   CMGdc::InitMGdc
+2019-05-17, 21:25:22   CMGdc::InitMGdc
+2019-05-17, 21:25:22   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:25:22   RefreshDrawer suc!
+2019-05-17, 21:26:17   -----APP START-----
+
+
+2019-05-17, 21:26:17   ----------YimaEnc Control started ----------
+2019-05-17, 21:26:17   Begin to VerifyUserLicense! .........
+2019-05-17, 21:26:17   服务许可验证失败，转为本地检测
+2019-05-17, 21:26:17   Success to VerifyUserLicense.
+2019-05-17, 21:26:17   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:26:17   DGPS01
+2019-05-17, 21:26:17   DGPS01
+2019-05-17, 21:26:17   CMGdc::InitMGdc
+2019-05-17, 21:26:17   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:26:17   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:26:17   +++++ Init success! ++++++
+2019-05-17, 21:26:17   RefreshDrawer beg!
+2019-05-17, 21:26:17   CMGdc::InitMGdc
+2019-05-17, 21:26:17   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:26:17   CMGdc::InitMGdc
+2019-05-17, 21:26:17   CMGdc::InitMGdc
+2019-05-17, 21:26:17   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:26:17   RefreshDrawer suc!
+2019-05-17, 21:26:23   To exit yimaenc....
+2019-05-17, 21:28:08   -----APP START-----
+
+
+2019-05-17, 21:28:08   ----------YimaEnc Control started ----------
+2019-05-17, 21:28:08   Begin to VerifyUserLicense! .........
+2019-05-17, 21:28:08   服务许可验证失败，转为本地检测
+2019-05-17, 21:28:08   Success to VerifyUserLicense.
+2019-05-17, 21:28:08   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:28:08   DGPS01
+2019-05-17, 21:28:08   DGPS01
+2019-05-17, 21:28:08   CMGdc::InitMGdc
+2019-05-17, 21:28:08   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:28:08   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:28:08   +++++ Init success! ++++++
+2019-05-17, 21:28:08   RefreshDrawer beg!
+2019-05-17, 21:28:08   CMGdc::InitMGdc
+2019-05-17, 21:28:08   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:28:08   CMGdc::InitMGdc
+2019-05-17, 21:28:08   CMGdc::InitMGdc
+2019-05-17, 21:28:08   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:28:08   RefreshDrawer suc!
+2019-05-17, 21:28:39   To exit yimaenc....
+2019-05-17, 21:57:23   -----APP START-----
+
+
+2019-05-17, 21:57:23   ----------YimaEnc Control started ----------
+2019-05-17, 21:57:23   Begin to VerifyUserLicense! .........
+2019-05-17, 21:57:23   服务许可验证失败，转为本地检测
+2019-05-17, 21:57:23   Success to VerifyUserLicense.
+2019-05-17, 21:57:23   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 21:57:23   DGPS01
+2019-05-17, 21:57:23   DGPS01
+2019-05-17, 21:57:23   CMGdc::InitMGdc
+2019-05-17, 21:57:23   绘制池不足，建立新绘制器： 1
+2019-05-17, 21:57:23   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 21:57:23   +++++ Init success! ++++++
+2019-05-17, 21:57:23   RefreshDrawer beg!
+2019-05-17, 21:57:23   CMGdc::InitMGdc
+2019-05-17, 21:57:23   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 21:57:23   CMGdc::InitMGdc
+2019-05-17, 21:57:23   CMGdc::InitMGdc
+2019-05-17, 21:57:23   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 21:57:23   RefreshDrawer suc!
+2019-05-17, 21:57:43   To exit yimaenc....
+2019-05-17, 22:02:28   -----APP START-----
+
+
+2019-05-17, 22:02:28   ----------YimaEnc Control started ----------
+2019-05-17, 22:02:28   Begin to VerifyUserLicense! .........
+2019-05-17, 22:02:28   服务许可验证失败，转为本地检测
+2019-05-17, 22:02:28   Success to VerifyUserLicense.
+2019-05-17, 22:02:28   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 22:02:28   DGPS01
+2019-05-17, 22:02:28   DGPS01
+2019-05-17, 22:02:28   CMGdc::InitMGdc
+2019-05-17, 22:02:28   绘制池不足，建立新绘制器： 1
+2019-05-17, 22:02:28   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 22:02:28   +++++ Init success! ++++++
+2019-05-17, 22:02:28   RefreshDrawer beg!
+2019-05-17, 22:02:28   CMGdc::InitMGdc
+2019-05-17, 22:02:28   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 22:02:28   CMGdc::InitMGdc
+2019-05-17, 22:02:28   CMGdc::InitMGdc
+2019-05-17, 22:02:28   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 22:02:28   RefreshDrawer suc!
+2019-05-17, 22:02:44   CMGdc::InitMGdc
+2019-05-17, 22:02:44   绘制池不足，建立新绘制器： 2
+2019-05-17, 22:02:44   CMGdc::InitMGdc
+2019-05-17, 22:02:44   绘制池不足，建立新绘制器： 3
+2019-05-17, 22:02:44   CMGdc::InitMGdc
+2019-05-17, 22:02:44   绘制池不足，建立新绘制器： 4
+2019-05-17, 22:03:23   To exit yimaenc....
+2019-05-17, 22:09:51   -----APP START-----
+
+
+2019-05-17, 22:09:51   ----------YimaEnc Control started ----------
+2019-05-17, 22:09:51   Begin to VerifyUserLicense! .........
+2019-05-17, 22:09:51   服务许可验证失败，转为本地检测
+2019-05-17, 22:09:52   Success to VerifyUserLicense.
+2019-05-17, 22:09:52   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 22:09:52   DGPS01
+2019-05-17, 22:09:52   DGPS01
+2019-05-17, 22:09:52   CMGdc::InitMGdc
+2019-05-17, 22:09:52   绘制池不足，建立新绘制器： 1
+2019-05-17, 22:09:52   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 22:09:52   +++++ Init success! ++++++
+2019-05-17, 22:09:52   RefreshDrawer beg!
+2019-05-17, 22:09:52   CMGdc::InitMGdc
+2019-05-17, 22:09:52   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 22:09:52   CMGdc::InitMGdc
+2019-05-17, 22:09:52   CMGdc::InitMGdc
+2019-05-17, 22:09:52   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 22:09:52   RefreshDrawer suc!
+2019-05-17, 22:10:10   To exit yimaenc....
+2019-05-17, 22:12:20   -----APP START-----
+
+
+2019-05-17, 22:12:20   ----------YimaEnc Control started ----------
+2019-05-17, 22:12:20   Begin to VerifyUserLicense! .........
+2019-05-17, 22:12:20   服务许可验证失败，转为本地检测
+2019-05-17, 22:12:20   Success to VerifyUserLicense.
+2019-05-17, 22:12:20   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-05-17, 22:12:20   DGPS01
+2019-05-17, 22:12:20   DGPS01
+2019-05-17, 22:12:20   CMGdc::InitMGdc
+2019-05-17, 22:12:20   绘制池不足，建立新绘制器： 1
+2019-05-17, 22:12:20   Begin to SetS52LayerDisplaySetFilePath! .........
+2019-05-17, 22:12:20   +++++ Init success! ++++++
+2019-05-17, 22:12:20   RefreshDrawer beg!
+2019-05-17, 22:12:20   CMGdc::InitMGdc
+2019-05-17, 22:12:20   --CDrawerPool::ReInitPool----brgin------
+2019-05-17, 22:12:20   CMGdc::InitMGdc
+2019-05-17, 22:12:20   CMGdc::InitMGdc
+2019-05-17, 22:12:20   --CDrawerPool::ReInitPool-----end-----
+2019-05-17, 22:12:20   RefreshDrawer suc!
+2019-05-17, 22:12:31   To exit yimaenc....
+2019-5-17, 22:27:17   Begin to VerifyUserLicense! .........
+2019-5-17, 22:27:17   Success to VerifyUserLicense.
+2019-5-17, 22:27:17   ............................................. YimaEnc Control started ............................................
+2019-5-17, 22:27:17   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-17, 22:27:17   DGPS01
+2019-5-17, 22:27:17   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-17, 22:27:17   DGPS01
+2019-5-17, 22:27:17   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-17, 22:27:27   +++++ Init success! ++++++
+2019-5-17, 22:27:27   RefreshDrawer beg!
+2019-5-17, 22:27:27   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-17, 22:27:27   RefreshDrawer suc!
+2019-5-17, 22:28:7   Begin to VerifyUserLicense! .........
+2019-5-17, 22:28:7   Success to VerifyUserLicense.
+2019-5-17, 22:28:7   ............................................. YimaEnc Control started ............................................
+2019-5-17, 22:28:7   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-17, 22:28:7   DGPS01
+2019-5-17, 22:28:7   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-17, 22:28:7   DGPS01
+2019-5-17, 22:28:7   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:3:33   Begin to VerifyUserLicense! .........
+2019-5-18, 15:3:33   Success to VerifyUserLicense.
+2019-5-18, 15:3:33   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:3:33   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:3:33   DGPS01
+2019-5-18, 15:3:33   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:3:33   DGPS01
+2019-5-18, 15:3:33   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:3:42   +++++ Init success! ++++++
+2019-5-18, 15:3:42   RefreshDrawer beg!
+2019-5-18, 15:3:42   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:3:42   RefreshDrawer suc!
+2019-5-18, 15:3:54   Begin to VerifyUserLicense! .........
+2019-5-18, 15:3:54   Success to VerifyUserLicense.
+2019-5-18, 15:3:54   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:3:54   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:3:54   DGPS01
+2019-5-18, 15:3:54   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:3:54   DGPS01
+2019-5-18, 15:3:54   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:4:2   +++++ Init success! ++++++
+2019-5-18, 15:4:2   RefreshDrawer beg!
+2019-5-18, 15:4:2   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:4:2   RefreshDrawer suc!
+2019-5-18, 15:5:6   Begin to VerifyUserLicense! .........
+2019-5-18, 15:5:6   Success to VerifyUserLicense.
+2019-5-18, 15:5:6   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:5:6   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:5:6   DGPS01
+2019-5-18, 15:5:6   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:5:6   DGPS01
+2019-5-18, 15:5:6   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:5:15   +++++ Init success! ++++++
+2019-5-18, 15:5:15   RefreshDrawer beg!
+2019-5-18, 15:5:15   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:5:15   RefreshDrawer suc!
+2019-5-18, 15:6:18   Begin to VerifyUserLicense! .........
+2019-5-18, 15:6:18   Success to VerifyUserLicense.
+2019-5-18, 15:6:18   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:6:18   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:6:18   DGPS01
+2019-5-18, 15:6:18   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:6:18   DGPS01
+2019-5-18, 15:6:18   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:6:27   +++++ Init success! ++++++
+2019-5-18, 15:6:27   RefreshDrawer beg!
+2019-5-18, 15:6:27   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:6:27   RefreshDrawer suc!
+2019-5-18, 15:9:10   Begin to VerifyUserLicense! .........
+2019-5-18, 15:9:10   Success to VerifyUserLicense.
+2019-5-18, 15:9:10   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:9:10   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:9:10   DGPS01
+2019-5-18, 15:9:10   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:9:10   DGPS01
+2019-5-18, 15:9:10   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:9:20   +++++ Init success! ++++++
+2019-5-18, 15:9:20   RefreshDrawer beg!
+2019-5-18, 15:9:20   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:9:20   RefreshDrawer suc!
+2019-5-18, 15:11:51   Begin to VerifyUserLicense! .........
+2019-5-18, 15:11:51   Success to VerifyUserLicense.
+2019-5-18, 15:11:51   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:11:51   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:11:51   DGPS01
+2019-5-18, 15:11:51   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:11:51   DGPS01
+2019-5-18, 15:11:51   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:12:1   +++++ Init success! ++++++
+2019-5-18, 15:12:1   RefreshDrawer beg!
+2019-5-18, 15:12:1   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:12:1   RefreshDrawer suc!
+2019-5-18, 15:14:26   Begin to VerifyUserLicense! .........
+2019-5-18, 15:14:26   Success to VerifyUserLicense.
+2019-5-18, 15:14:26   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:14:26   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:14:26   DGPS01
+2019-5-18, 15:14:26   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:14:26   DGPS01
+2019-5-18, 15:14:26   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:14:36   +++++ Init success! ++++++
+2019-5-18, 15:14:36   RefreshDrawer beg!
+2019-5-18, 15:14:36   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:14:36   RefreshDrawer suc!
+2019-5-18, 15:14:54   Begin to VerifyUserLicense! .........
+2019-5-18, 15:14:54   Success to VerifyUserLicense.
+2019-5-18, 15:14:54   ............................................. YimaEnc Control started ............................................
+2019-5-18, 15:14:54   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid complex lineStyle name!
+2019-5-18, 15:14:54   DGPS01
+2019-5-18, 15:14:54   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:14:54   DGPS01
+2019-5-18, 15:14:54   CENCMap::SetObjClassGeoStyleFromInstruct	 Error! Invalid attribute number!
+2019-5-18, 15:15:4   +++++ Init success! ++++++
+2019-5-18, 15:15:4   RefreshDrawer beg!
+2019-5-18, 15:15:4   CMapBasicElementDrawer::RefreshDrawerWnd Ln56	 Failed to hMemDCBitmap for hMemdc!
+2019-5-18, 15:15:4   RefreshDrawer suc!

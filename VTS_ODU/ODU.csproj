@@ -142,6 +142,12 @@
     <Compile Include="AISAddForm.Designer.cs">
       <DependentUpon>AISAddForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AisList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AisList.Designer.cs">
+      <DependentUpon>AisList.cs</DependentUpon>
+    </Compile>
     <Compile Include="AISShowBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -284,6 +290,9 @@
     <Compile Include="YimaEncInfoClass.cs" />
     <EmbeddedResource Include="AISAddForm.resx">
       <DependentUpon>AISAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AisList.resx">
+      <DependentUpon>AisList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AISShowBox.resx">
       <DependentUpon>AISShowBox.cs</DependentUpon>
@@ -547,12 +556,24 @@
     <Content Include="images\button_login_normal.png" />
     <None Include="images\close.png" />
     <None Include="images\Delete.png" />
+    <None Include="images\close1.png" />
+    <None Include="images\close2.png" />
     <Content Include="images\dianzifangweitu.png" />
     <None Include="images\hand.png" />
     <None Include="images\edit.png" />
     <None Include="images\font_24px_1187332_easyicon.net.png" />
     <None Include="images\hand1.png" />
+    <None Include="images\dingwei1.png" />
+    <None Include="images\dingwei2.png" />
+    <None Include="images\down1.png" />
+    <None Include="images\down2.png" />
     <Content Include="images\imgRjp.BackgroundImage.png" />
+    <None Include="images\jiasuan1.png" />
+    <None Include="images\jiasuan2.png" />
+    <None Include="images\left1.png" />
+    <None Include="images\left2.png" />
+    <None Include="images\locking1.png" />
+    <None Include="images\locking2.png" />
     <Content Include="images\login.ico" />
     <Content Include="images\login_96px_1210124_easyicon.net.png" />
     <None Include="images\radar.png" />
@@ -561,8 +582,20 @@
     <None Include="images\stop.png" />
     <None Include="images\ship1.png" />
     <None Include="images\soft.png" />
+    <None Include="images\msg1.png" />
+    <None Include="images\msg2.png" />
+    <None Include="images\right1.png" />
+    <None Include="images\right2.png" />
+    <None Include="images\up1.png" />
+    <None Include="images\up2.png" />
     <Content Include="images\user_24px_28312_easyicon.net.png" />
     <None Include="images\yes.png" />
+    <None Include="images\wenjian1.png" />
+    <None Include="images\wenjian2.png" />
+    <None Include="images\zoomIn1.png" />
+    <None Include="images\zoomIn2.png" />
+    <None Include="images\zoomOut1.png" />
+    <None Include="images\zoomOut2.png" />
     <Content Include="images\小按钮2未选中%402x.png" />
     <Content Include="images\小按钮2选中%402x.png" />
   </ItemGroup>

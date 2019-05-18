@@ -3,13 +3,13 @@
   "aisRecvPort": "9006",
   "localIp": "192.168.1.112",
   "coachStation": {
-    "coachStationIp": "10.162.35.124",
+    "coachStationIp": "192.168.1.114",
     "coachStationPort": "9004"
   },
   "dataBase": {
-    "dataBaseIp": "120.25.251.47",
+    "dataBaseIp": "127.0.0.1",
     "dataBasePort": "3306",
-    "dataBaseUser": "driver",
-    "dataBasePass": "123456"
+    "dataBaseUser": "root",
+    "dataBasePass": "root"
   }
 }

@@ -1,1 +1,1 @@
-{"coachStation":{"coachStationIp":"10.162.35.124","coachStationPort":"9004"},"dataBase":{"dataBaseIp":"127.0.0.1","dataBasePort":"3306","dataBaseUser":"root","dataBasePass":"root"},"radarRecvPort":"9005","aisRecvPort":"9006","localIp":"10.162.35.131"}
+{"coachStation":{"coachStationIp":"192.168.1.114","coachStationPort":"9004"},"dataBase":{"dataBaseIp":"127.0.0.1","dataBasePort":"3306","dataBaseUser":"root","dataBasePass":"root"},"radarRecvPort":"9005","aisRecvPort":"9006","localIp":"192.168.1.112"}
