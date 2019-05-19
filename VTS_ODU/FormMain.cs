@@ -166,6 +166,9 @@ namespace vts_odu
         public Thread m_threadRecvRadarClientConn = null;   ////创建一个线程监听客户端连接请求
         public Thread m_threadRadarDrawImageConn = null;   ////创建一个线程绘制雷达图像
 
+        //---------------定时维护目标列表--------------
+        private System.Timers.Timer whObjectListTimer = null;
+
         //-----------通信及其他参数配置----------
         public SysConfigJson config = null;
 
@@ -283,6 +286,7 @@ namespace vts_odu
             {
                 LOCAL_IP = config.localIp;
             }
+            whObjectListTimer = new System.Timers.Timer();
         }
 
         //设置系统显示风格
@@ -430,6 +434,11 @@ namespace vts_odu
             m_threadRecvShipInfoThread.Start();
             m_threadRecvRadarThread.Start();
             m_threadRecvRadarClientConn.Start();
+
+            //---------------计算船舶和雷达列表定时器Timer---------------
+            whObjectListTimer.Interval = 30*1000;
+            whObjectListTimer.Elapsed += new System.Timers.ElapsedEventHandler(whObjectListTimerFun);
+            whObjectListTimer.Enabled = true;
         }
 
         /// <summary>
@@ -481,10 +490,10 @@ namespace vts_odu
                     int res = AISDecodeInfo(data, data.Length, ref shipData);
                     if (res == -1)
                     {
-                        recvShip = new CShip(shipData.mmsi, shipData.shipname + "_" + shipData.mmsi, shipTypeList[shipData.type % shipTypeList.Count], shipData.course,
+                        recvShip = new CShip(shipData.mmsi, shipData.shipname + "ship_" + shipData.mmsi, shipTypeList[shipData.type % shipTypeList.Count], shipData.course,
                         shipData.heading, Convert.ToInt32(shipData.longitude * UNI_GEO_COOR_MULTI_FACTOR), Convert.ToInt32(shipData.latitude * UNI_GEO_COOR_MULTI_FACTOR), 1, shipData.speed / 1.852);
                         Common.ShipUpdateOrAdd(ymEncCtrl, shipList, recvShip);
-                        ymEncCtrl.CenterMap(recvShip.shipLatitude,recvShip.shipLongitude);
+                        //ymEncCtrl.CenterMap(recvShip.shipLatitude,recvShip.shipLongitude);
                     }
                 }
                 catch(Exception e)
@@ -531,7 +540,7 @@ namespace vts_odu
                     RadarData rd = RadarData.getRadarData(data, count);
                     if(rd.Datas != null)
                     {
-                        radar = new CRadar(Convert.ToInt32(rd.Id), rd.Id, rd.Height, rd.Range, Convert.ToInt32(rd.Lng * 10000000), Convert.ToInt32(rd.Lat * 10000000), rd.PointCount, rd.LineCount, rd.Scale, 1)
+                        radar = new CRadar(Convert.ToInt32(rd.Id), "radar_"+rd.Id, rd.Height, rd.Range, Convert.ToInt32(rd.Lng* 10000000), Convert.ToInt32(rd.Lat * 10000000), rd.PointCount, rd.LineCount, rd.Scale, 1)
                         {
                             radarScanRadius = rd.Scale * rd.PointCount,
                             radarShowColor = Color.Red,
@@ -654,12 +663,98 @@ namespace vts_odu
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-   
+
+            //船舶列表样式
+            this.dataGridView_ShipList.SelectionMode = DataGridViewSelectionMode.FullRowSelect;//选中整行
+            this.dataGridView_ShipList.AllowUserToAddRows = false;
+            this.dataGridView_ShipList.AllowUserToDeleteRows = false;
+            this.dataGridView_ShipList.BackColor = System.Drawing.Color.LightCyan;
+            this.dataGridView_ShipList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView_ShipList.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView_ShipList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView_ShipList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+
             //头样式
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;//211, 223, 240
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.AliceBlue;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dataGridView_ShipList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView_ShipList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_ShipList.EnableHeadersVisualStyles = false;
+            this.dataGridView_ShipList.GridColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dataGridView_ShipList.ReadOnly = true;
+            this.dataGridView_ShipList.RowHeadersVisible = false;
+            this.dataGridView_ShipList.RowTemplate.ReadOnly = true;
+
+            //雷达列表样式
+            this.dataGridView_RadarList.SelectionMode = DataGridViewSelectionMode.FullRowSelect;//选中整行
+            this.dataGridView_RadarList.AllowUserToAddRows = false;
+            this.dataGridView_RadarList.AllowUserToDeleteRows = false;
+            this.dataGridView_RadarList.BackColor = System.Drawing.Color.LightCyan;
+            this.dataGridView_RadarList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView_RadarList.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView_RadarList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView_RadarList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+
+            //头样式
+            this.dataGridView_RadarList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView_RadarList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_RadarList.EnableHeadersVisualStyles = false;
+            this.dataGridView_RadarList.GridColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dataGridView_RadarList.ReadOnly = true;
+            this.dataGridView_RadarList.RowHeadersVisible = false;
+            this.dataGridView_RadarList.RowTemplate.ReadOnly = true;
+        }
+
+
+        public void whObjectListTimerFun(object source, System.Timers.ElapsedEventArgs e)
+        {
+            try
+            {
+                while (this.dataGridView_ShipList.Rows.Count != 0)
+                {
+                    this.dataGridView_ShipList.Rows.RemoveAt(0);
+                }
+                //添加船舶列表
+                if (shipList.Count > 0)
+                {
+                    //遍历所有船
+                    foreach (CShip ship in shipList.ToArray())
+                    {
+                        if(null != ship.shipName)
+                        {
+                            int index = this.dataGridView_ShipList.Rows.Add();
+                            dataGridView_ShipList.Rows[index].Cells[0].Value = ship.shipName;
+                            dataGridView_ShipList.Rows[index].Cells[1].Value = ship.shipLongitude;
+                            dataGridView_ShipList.Rows[index].Cells[2].Value = ship.shipLatitude;
+                        }
+                    }
+                }
+                while (this.dataGridView_RadarList.Rows.Count != 0)
+                {
+                    this.dataGridView_RadarList.Rows.RemoveAt(0);
+                }
+                //添加雷达列表
+                if (radarList.Count > 0)
+                {
+                    //遍历所有雷达
+                    foreach (CRadar radar in radarList.ToArray())
+                    {
+                        if(null != radar.radarName)
+                        {
+                            int index = this.dataGridView_RadarList.Rows.Add();
+                            dataGridView_RadarList.Rows[index].Cells[0].Value = radar.radarName;
+                            dataGridView_RadarList.Rows[index].Cells[1].Value = radar.radarGeoPosX;
+                            dataGridView_RadarList.Rows[index].Cells[2].Value = radar.radarGeoPosY;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("目标列表异常"+ex.Message);
+            }
         }
 
         //绘制
@@ -2335,6 +2430,30 @@ namespace vts_odu
         {
             AisList aisList = new AisList();
             aisList.ShowDialog();
+        }
+
+        private void DataGridView_ShipList_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int iRowPos = e.RowIndex;
+            if (iRowPos > -1)
+            {
+                int longitude = (int)this.dataGridView_ShipList.Rows[iRowPos].Cells[1].Value;
+                int latitude = (int)this.dataGridView_ShipList.Rows[iRowPos].Cells[2].Value;
+                ymEncCtrl.CenterMap(latitude, longitude);
+                RedrawMapScreen();
+            }
+        }
+
+        private void DataGridView_RadarList_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int iRowPos = e.RowIndex;
+            if (iRowPos > -1)
+            {
+                int longitude = (int)this.dataGridView_RadarList.Rows[iRowPos].Cells[1].Value;
+                int latitude = (int)this.dataGridView_RadarList.Rows[iRowPos].Cells[2].Value;
+                ymEncCtrl.CenterMap(longitude, latitude);
+                RedrawMapScreen();
+            }
         }
     }
 }

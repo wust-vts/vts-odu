@@ -64,5 +64,10 @@ namespace vts_odu
         {
             userName.Focus();
         }
+
+        private void SkinButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

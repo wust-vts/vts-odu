@@ -131,8 +131,19 @@ namespace vts_odu
             this.轨迹回放ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.开始回放ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.停止回放ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.aIS数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.tabControl_shipList = new System.Windows.Forms.TabControl();
+            this.tabPage_Othervessl = new System.Windows.Forms.TabPage();
+            this.dataGridView_ShipList = new System.Windows.Forms.DataGridView();
+            this.tabPage_Otherradar = new System.Windows.Forms.TabPage();
+            this.dataGridView_RadarList = new System.Windows.Forms.DataGridView();
+            this.radarName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.radarLongitude = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.radarLatitude = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shipName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shipLongitude = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shipLatitude = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SS_STATUS_BAR.SuspendLayout();
             this.TS_TOOLBAR.SuspendLayout();
             this.panel_MainInfo.SuspendLayout();
@@ -143,6 +154,11 @@ namespace vts_odu
             this.panel_MainMap.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ymEncCtrl)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.tabControl_shipList.SuspendLayout();
+            this.tabPage_Othervessl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ShipList)).BeginInit();
+            this.tabPage_Otherradar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_RadarList)).BeginInit();
             this.SuspendLayout();
             // 
             // SS_STATUS_BAR
@@ -378,6 +394,7 @@ namespace vts_odu
             // 
             // panel_MainInfo
             // 
+            this.panel_MainInfo.Controls.Add(this.tabControl_shipList);
             this.panel_MainInfo.Controls.Add(this.tabControl_ShowInfo);
             resources.ApplyResources(this.panel_MainInfo, "panel_MainInfo");
             this.panel_MainInfo.Name = "panel_MainInfo";
@@ -908,6 +925,114 @@ namespace vts_odu
             this.aIS数据ToolStripMenuItem.Name = "aIS数据ToolStripMenuItem";
             this.aIS数据ToolStripMenuItem.Click += new System.EventHandler(this.aIS数据ToolStripMenuItem_Click);
             // 
+            // tabControl_shipList
+            // 
+            this.tabControl_shipList.Controls.Add(this.tabPage_Othervessl);
+            this.tabControl_shipList.Controls.Add(this.tabPage_Otherradar);
+            resources.ApplyResources(this.tabControl_shipList, "tabControl_shipList");
+            this.tabControl_shipList.Name = "tabControl_shipList";
+            this.tabControl_shipList.SelectedIndex = 0;
+            // 
+            // tabPage_Othervessl
+            // 
+            this.tabPage_Othervessl.Controls.Add(this.dataGridView_ShipList);
+            resources.ApplyResources(this.tabPage_Othervessl, "tabPage_Othervessl");
+            this.tabPage_Othervessl.Name = "tabPage_Othervessl";
+            this.tabPage_Othervessl.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView_ShipList
+            // 
+            this.dataGridView_ShipList.AllowUserToAddRows = false;
+            this.dataGridView_ShipList.AllowUserToDeleteRows = false;
+            this.dataGridView_ShipList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_ShipList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            resources.ApplyResources(this.dataGridView_ShipList, "dataGridView_ShipList");
+            this.dataGridView_ShipList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.shipName,
+            this.shipLongitude,
+            this.shipLatitude});
+            this.dataGridView_ShipList.MultiSelect = false;
+            this.dataGridView_ShipList.Name = "dataGridView_ShipList";
+            this.dataGridView_ShipList.ReadOnly = true;
+            this.dataGridView_ShipList.RowHeadersVisible = false;
+            this.dataGridView_ShipList.RowTemplate.Height = 23;
+            this.dataGridView_ShipList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView_ShipList.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DataGridView_ShipList_CellMouseClick);
+            // 
+            // tabPage_Otherradar
+            // 
+            this.tabPage_Otherradar.Controls.Add(this.dataGridView_RadarList);
+            resources.ApplyResources(this.tabPage_Otherradar, "tabPage_Otherradar");
+            this.tabPage_Otherradar.Name = "tabPage_Otherradar";
+            this.tabPage_Otherradar.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView_RadarList
+            // 
+            this.dataGridView_RadarList.AllowUserToAddRows = false;
+            this.dataGridView_RadarList.AllowUserToDeleteRows = false;
+            this.dataGridView_RadarList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_RadarList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            resources.ApplyResources(this.dataGridView_RadarList, "dataGridView_RadarList");
+            this.dataGridView_RadarList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.radarName,
+            this.radarLongitude,
+            this.radarLatitude});
+            this.dataGridView_RadarList.MultiSelect = false;
+            this.dataGridView_RadarList.Name = "dataGridView_RadarList";
+            this.dataGridView_RadarList.ReadOnly = true;
+            this.dataGridView_RadarList.RowHeadersVisible = false;
+            this.dataGridView_RadarList.RowTemplate.Height = 23;
+            this.dataGridView_RadarList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView_RadarList.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DataGridView_RadarList_CellMouseClick);
+            // 
+            // radarName
+            // 
+            this.radarName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.radarName.FillWeight = 57.38116F;
+            resources.ApplyResources(this.radarName, "radarName");
+            this.radarName.Name = "radarName";
+            this.radarName.ReadOnly = true;
+            // 
+            // radarLongitude
+            // 
+            this.radarLongitude.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.radarLongitude.FillWeight = 83.70982F;
+            resources.ApplyResources(this.radarLongitude, "radarLongitude");
+            this.radarLongitude.Name = "radarLongitude";
+            this.radarLongitude.ReadOnly = true;
+            // 
+            // radarLatitude
+            // 
+            this.radarLatitude.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.radarLatitude.FillWeight = 96.47247F;
+            resources.ApplyResources(this.radarLatitude, "radarLatitude");
+            this.radarLatitude.Name = "radarLatitude";
+            this.radarLatitude.ReadOnly = true;
+            // 
+            // shipName
+            // 
+            this.shipName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.shipName.FillWeight = 57.38116F;
+            resources.ApplyResources(this.shipName, "shipName");
+            this.shipName.Name = "shipName";
+            this.shipName.ReadOnly = true;
+            // 
+            // shipLongitude
+            // 
+            this.shipLongitude.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.shipLongitude.FillWeight = 83.70982F;
+            resources.ApplyResources(this.shipLongitude, "shipLongitude");
+            this.shipLongitude.Name = "shipLongitude";
+            this.shipLongitude.ReadOnly = true;
+            // 
+            // shipLatitude
+            // 
+            this.shipLatitude.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.shipLatitude.FillWeight = 96.47247F;
+            resources.ApplyResources(this.shipLatitude, "shipLatitude");
+            this.shipLatitude.Name = "shipLatitude";
+            this.shipLatitude.ReadOnly = true;
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -940,6 +1065,11 @@ namespace vts_odu
             ((System.ComponentModel.ISupportInitialize)(this.ymEncCtrl)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.tabControl_shipList.ResumeLayout(false);
+            this.tabPage_Othervessl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ShipList)).EndInit();
+            this.tabPage_Otherradar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_RadarList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1285,6 +1415,17 @@ namespace vts_odu
         private System.Windows.Forms.ToolStripMenuItem 开始回放ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 停止回放ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aIS数据ToolStripMenuItem;
+        private System.Windows.Forms.TabControl tabControl_shipList;
+        private System.Windows.Forms.TabPage tabPage_Othervessl;
+        public System.Windows.Forms.DataGridView dataGridView_ShipList;
+        private System.Windows.Forms.TabPage tabPage_Otherradar;
+        public System.Windows.Forms.DataGridView dataGridView_RadarList;
+        private System.Windows.Forms.DataGridViewTextBoxColumn shipName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn shipLongitude;
+        private System.Windows.Forms.DataGridViewTextBoxColumn shipLatitude;
+        private System.Windows.Forms.DataGridViewTextBoxColumn radarName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn radarLongitude;
+        private System.Windows.Forms.DataGridViewTextBoxColumn radarLatitude;
     }
 }
 

@@ -177,6 +177,7 @@
             this.skinButton1.TabIndex = 10;
             this.skinButton1.Text = "退  出";
             this.skinButton1.UseVisualStyleBackColor = false;
+            this.skinButton1.Click += new System.EventHandler(this.SkinButton1_Click);
             // 
             // Login
             // 

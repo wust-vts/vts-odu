@@ -669,41 +669,167 @@
   <data name="StartOrStop.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;tabControl_ShowInfo.Name" xml:space="preserve">
-    <value>tabControl_ShowInfo</value>
+  <data name="dataGridView_ShipList.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
-  <data name="&gt;&gt;tabControl_ShowInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <metadata name="shipName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="shipName.HeaderText" xml:space="preserve">
+    <value>名称</value>
   </data>
-  <data name="&gt;&gt;tabControl_ShowInfo.Parent" xml:space="preserve">
-    <value>panel_MainInfo</value>
+  <metadata name="shipLongitude.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="shipLongitude.HeaderText" xml:space="preserve">
+    <value>经度</value>
   </data>
-  <data name="&gt;&gt;tabControl_ShowInfo.ZOrder" xml:space="preserve">
+  <metadata name="shipLatitude.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="shipLatitude.HeaderText" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="dataGridView_ShipList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 0</value>
+  </data>
+  <data name="dataGridView_ShipList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 258</value>
+  </data>
+  <data name="dataGridView_ShipList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="panel_MainInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;dataGridView_ShipList.Name" xml:space="preserve">
+    <value>dataGridView_ShipList</value>
   </data>
-  <data name="panel_MainInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>761, 0</value>
+  <data name="&gt;&gt;dataGridView_ShipList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel_MainInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>314, 491</value>
+  <data name="&gt;&gt;dataGridView_ShipList.Parent" xml:space="preserve">
+    <value>tabPage_Othervessl</value>
   </data>
-  <data name="panel_MainInfo.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;dataGridView_ShipList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage_Othervessl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage_Othervessl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 257</value>
+  </data>
+  <data name="tabPage_Othervessl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage_Othervessl.Text" xml:space="preserve">
+    <value>船舶列表</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.Name" xml:space="preserve">
+    <value>tabPage_Othervessl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.Parent" xml:space="preserve">
+    <value>tabControl_shipList</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Othervessl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridView_RadarList.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="radarName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="radarName.HeaderText" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <metadata name="radarLongitude.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="radarLongitude.HeaderText" xml:space="preserve">
+    <value>经度</value>
+  </data>
+  <metadata name="radarLatitude.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="radarLatitude.HeaderText" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="dataGridView_RadarList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 0</value>
+  </data>
+  <data name="dataGridView_RadarList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 258</value>
+  </data>
+  <data name="dataGridView_RadarList.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;panel_MainInfo.Name" xml:space="preserve">
+  <data name="&gt;&gt;dataGridView_RadarList.Name" xml:space="preserve">
+    <value>dataGridView_RadarList</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_RadarList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_RadarList.Parent" xml:space="preserve">
+    <value>tabPage_Otherradar</value>
+  </data>
+  <data name="&gt;&gt;dataGridView_RadarList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage_Otherradar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage_Otherradar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_Otherradar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 257</value>
+  </data>
+  <data name="tabPage_Otherradar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage_Otherradar.Text" xml:space="preserve">
+    <value>雷达列表</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Otherradar.Name" xml:space="preserve">
+    <value>tabPage_Otherradar</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Otherradar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Otherradar.Parent" xml:space="preserve">
+    <value>tabControl_shipList</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Otherradar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl_shipList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_shipList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt</value>
+  </data>
+  <data name="tabControl_shipList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 204</value>
+  </data>
+  <data name="tabControl_shipList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 287</value>
+  </data>
+  <data name="tabControl_shipList.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Name" xml:space="preserve">
+    <value>tabControl_shipList</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl_shipList.Parent" xml:space="preserve">
     <value>panel_MainInfo</value>
   </data>
-  <data name="&gt;&gt;panel_MainInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_MainInfo.Parent" xml:space="preserve">
-    <value>panel_mapView</value>
-  </data>
-  <data name="&gt;&gt;panel_MainInfo.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;tabControl_shipList.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;tabPage_BaseInfo.Name" xml:space="preserve">
     <value>tabPage_BaseInfo</value>
@@ -754,7 +880,31 @@
     <value>panel_MainInfo</value>
   </data>
   <data name="&gt;&gt;tabControl_ShowInfo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
+  </data>
+  <data name="panel_MainInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panel_MainInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>761, 0</value>
+  </data>
+  <data name="panel_MainInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 491</value>
+  </data>
+  <data name="panel_MainInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.Name" xml:space="preserve">
+    <value>panel_MainInfo</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.Parent" xml:space="preserve">
+    <value>panel_mapView</value>
+  </data>
+  <data name="&gt;&gt;panel_MainInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;label_name.Name" xml:space="preserve">
     <value>label_name</value>
@@ -1033,7 +1183,7 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 127</value>
+    <value>201, 129</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 16</value>
@@ -1165,7 +1315,7 @@
     <value>NoControl</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 155</value>
+    <value>201, 157</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 16</value>
@@ -1617,42 +1767,6 @@
   <data name="&gt;&gt;label_ship_length.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;panel_MainMap.Name" xml:space="preserve">
-    <value>panel_MainMap</value>
-  </data>
-  <data name="&gt;&gt;panel_MainMap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_MainMap.Parent" xml:space="preserve">
-    <value>panel_mapView</value>
-  </data>
-  <data name="&gt;&gt;panel_MainMap.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel_mapView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_mapView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 96</value>
-  </data>
-  <data name="panel_mapView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1075, 491</value>
-  </data>
-  <data name="panel_mapView.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel_mapView.Name" xml:space="preserve">
-    <value>panel_mapView</value>
-  </data>
-  <data name="&gt;&gt;panel_mapView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_mapView.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_mapView.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;ymEncCtrl.Name" xml:space="preserve">
     <value>ymEncCtrl</value>
   </data>
@@ -1688,6 +1802,30 @@
   </data>
   <data name="&gt;&gt;panel_MainMap.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="panel_mapView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_mapView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 96</value>
+  </data>
+  <data name="panel_mapView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1075, 491</value>
+  </data>
+  <data name="panel_mapView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel_mapView.Name" xml:space="preserve">
+    <value>panel_mapView</value>
+  </data>
+  <data name="&gt;&gt;panel_mapView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_mapView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_mapView.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="ymEncCtrl.Enabled" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1743,84 +1881,6 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>190, 17</value>
   </metadata>
-  <data name="FileMenu.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="FileMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="FileMenu.Text" xml:space="preserve">
-    <value>文件(&amp;F)</value>
-  </data>
-  <data name="查看ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="查看ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="查看ToolStripMenuItem.Text" xml:space="preserve">
-    <value>查看(&amp;V)</value>
-  </data>
-  <data name="显示选项ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="显示选项ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 20</value>
-  </data>
-  <data name="显示选项ToolStripMenuItem.Text" xml:space="preserve">
-    <value>显示选项(&amp;D)</value>
-  </data>
-  <data name="系统设置ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="系统设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 20</value>
-  </data>
-  <data name="系统设置ToolStripMenuItem.Text" xml:space="preserve">
-    <value>系统设置</value>
-  </data>
-  <data name="工具ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="工具ToolStripMenuItem.Text" xml:space="preserve">
-    <value>工具(&amp;T)</value>
-  </data>
-  <data name="视图ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="视图ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="视图ToolStripMenuItem.Text" xml:space="preserve">
-    <value>视图(&amp;H)</value>
-  </data>
-  <data name="轨迹回放ToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="轨迹回放ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="轨迹回放ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 20</value>
-  </data>
-  <data name="轨迹回放ToolStripMenuItem.Text" xml:space="preserve">
-    <value>轨迹回放</value>
-  </data>
-  <data name="轨迹回放ToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="aIS数据ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 12pt</value>
-  </data>
-  <data name="aIS数据ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="aIS数据ToolStripMenuItem.Text" xml:space="preserve">
-    <value>AIS数据</value>
-  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -1845,6 +1905,15 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="FileMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="FileMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="FileMenu.Text" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
   <data name="MapLibManMenu.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1852,7 +1921,7 @@
     <value>宋体, 12pt</value>
   </data>
   <data name="MapLibManMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="MapLibManMenu.Text" xml:space="preserve">
     <value>图库管理</value>
@@ -1864,10 +1933,19 @@
     <value>宋体, 12pt</value>
   </data>
   <data name="退出ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="退出ToolStripMenuItem.Text" xml:space="preserve">
     <value>退出(X)</value>
+  </data>
+  <data name="查看ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="查看ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="查看ToolStripMenuItem.Text" xml:space="preserve">
+    <value>查看(&amp;V)</value>
   </data>
   <data name="放大ToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -1952,6 +2030,15 @@
   </data>
   <data name="历史航迹模拟显示ToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="显示选项ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="显示选项ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="显示选项ToolStripMenuItem.Text" xml:space="preserve">
+    <value>显示选项(&amp;D)</value>
   </data>
   <data name="TSMI_Display_AllInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 22</value>
@@ -2061,62 +2148,113 @@
   <data name="显示历史航迹ToolStripMenuItem.Text" xml:space="preserve">
     <value>显示历史航迹</value>
   </data>
+  <data name="系统设置ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="系统设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="系统设置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
   <data name="通信设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
   </data>
   <data name="通信设置ToolStripMenuItem.Text" xml:space="preserve">
     <value>通信设置</value>
   </data>
+  <data name="工具ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="工具ToolStripMenuItem.Text" xml:space="preserve">
+    <value>工具(&amp;T)</value>
+  </data>
   <data name="TSMI_Tool_GEO_CALC.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="TSMI_Tool_GEO_CALC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="TSMI_Tool_GEO_CALC.Text" xml:space="preserve">
     <value>地理计算</value>
   </data>
   <data name="保存屏幕图片ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="保存屏幕图片ToolStripMenuItem.Text" xml:space="preserve">
     <value>保存屏幕图片</value>
   </data>
+  <data name="视图ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="视图ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="视图ToolStripMenuItem.Text" xml:space="preserve">
+    <value>视图(&amp;H)</value>
+  </data>
   <data name="TSMI_VIEW_TOOLBAR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="TSMI_VIEW_TOOLBAR.Text" xml:space="preserve">
     <value>工具栏</value>
   </data>
   <data name="TSMI_VIEW_STATUS_BAR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="TSMI_VIEW_STATUS_BAR.Text" xml:space="preserve">
     <value>状态栏</value>
   </data>
   <data name="TSMI_Info.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="TSMI_Info.Text" xml:space="preserve">
     <value>信息栏</value>
   </data>
   <data name="全屏显示ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="全屏显示ToolStripMenuItem.Text" xml:space="preserve">
     <value>全屏显示</value>
   </data>
+  <data name="轨迹回放ToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="轨迹回放ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="轨迹回放ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="轨迹回放ToolStripMenuItem.Text" xml:space="preserve">
+    <value>轨迹回放</value>
+  </data>
+  <data name="轨迹回放ToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="开始回放ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="开始回放ToolStripMenuItem.Text" xml:space="preserve">
     <value>开始回放</value>
   </data>
   <data name="停止回放ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="停止回放ToolStripMenuItem.Text" xml:space="preserve">
     <value>停止回放</value>
+  </data>
+  <data name="aIS数据ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="aIS数据ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="aIS数据ToolStripMenuItem.Text" xml:space="preserve">
+    <value>AIS数据</value>
   </data>
   <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -3685,17 +3823,53 @@
   <data name="&gt;&gt;停止回放ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;aIS数据ToolStripMenuItem.Name" xml:space="preserve">
+    <value>aIS数据ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aIS数据ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
     <value>folderBrowserDialog</value>
   </data>
   <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;aIS数据ToolStripMenuItem.Name" xml:space="preserve">
-    <value>aIS数据ToolStripMenuItem</value>
+  <data name="&gt;&gt;radarName.Name" xml:space="preserve">
+    <value>radarName</value>
   </data>
-  <data name="&gt;&gt;aIS数据ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;radarName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radarLongitude.Name" xml:space="preserve">
+    <value>radarLongitude</value>
+  </data>
+  <data name="&gt;&gt;radarLongitude.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radarLatitude.Name" xml:space="preserve">
+    <value>radarLatitude</value>
+  </data>
+  <data name="&gt;&gt;radarLatitude.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shipName.Name" xml:space="preserve">
+    <value>shipName</value>
+  </data>
+  <data name="&gt;&gt;shipName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shipLongitude.Name" xml:space="preserve">
+    <value>shipLongitude</value>
+  </data>
+  <data name="&gt;&gt;shipLongitude.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shipLatitude.Name" xml:space="preserve">
+    <value>shipLatitude</value>
+  </data>
+  <data name="&gt;&gt;shipLatitude.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormMain</value>
